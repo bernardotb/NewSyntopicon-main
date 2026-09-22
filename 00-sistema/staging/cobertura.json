@@ -1,0 +1,1097 @@
+{
+  "versao": "1.1.0",
+  "baseline": "STAGING_BASELINE_JUSTICE_1952_V9",
+  "timestamp": "2026-09-22T16:42:31.798602+00:00",
+  "fonteDocumental": "source:pdf-justice-1952",
+  "paginasEscopo": "859–878",
+  "metricasGlobais": {
+    "totalEntradasDetectadas": 808,
+    "totalWorkSegmentsDetectados": 1337,
+    "totalEntradasVerificadasNoVault": 71,
+    "totalWorkSegmentsVerificadosNoVault": 103,
+    "referenciasCandidatasStaging": 737,
+    "totalReferenciasComWarning": 53,
+    "totalAmbiguidadesRegistradas": 764
+  },
+  "esclarecimentoSemantico": {
+    "totalReferenciasComWarning": "Contagem de registros de referencia fisica que possuem ao menos 1 aviso no campo warnings (ex: autor nao resolvido ou formato irregular).",
+    "totalAmbiguidadesRegistradas": "Contagem de ocorrencias individuais de atrito documental catalogadas detalhadamente em ambiguidades.json (inclui correcoes de OCR, dois pontos ausentes e resolucoes aproximadas de obra por segmento)."
+  },
+  "resumoPorLote": {
+    "Lote 1": {
+      "topicos": [
+        "42.1",
+        "42.1a",
+        "42.1b",
+        "42.1c",
+        "42.1d",
+        "42.1e",
+        "42.1f"
+      ],
+      "totalTopicos": 7,
+      "refsDetectadas": 53,
+      "workSegmentsDetectados": 82,
+      "refsVerificadas": 53,
+      "workSegmentsVerificados": 82,
+      "refsComWarning": 4,
+      "totalAmbiguidades": 50,
+      "statusLote": "verified"
+    },
+    "Lote 2": {
+      "topicos": [
+        "42.2",
+        "42.3",
+        "42.4",
+        "42.5"
+      ],
+      "totalTopicos": 4,
+      "refsDetectadas": 100,
+      "workSegmentsDetectados": 177,
+      "refsVerificadas": 0,
+      "workSegmentsVerificados": 0,
+      "refsComWarning": 6,
+      "totalAmbiguidades": 93,
+      "statusLote": "needs_verification"
+    },
+    "Lote 3": {
+      "topicos": [
+        "42.6",
+        "42.6a",
+        "42.6b",
+        "42.6c",
+        "42.6d",
+        "42.6e",
+        "42.7"
+      ],
+      "totalTopicos": 7,
+      "refsDetectadas": 143,
+      "workSegmentsDetectados": 212,
+      "refsVerificadas": 0,
+      "workSegmentsVerificados": 0,
+      "refsComWarning": 9,
+      "totalAmbiguidades": 119,
+      "statusLote": "needs_verification"
+    },
+    "Lote 4": {
+      "topicos": [
+        "42.8",
+        "42.8a",
+        "42.8b",
+        "42.8c",
+        "42.8c(1)",
+        "42.8c(2)",
+        "42.8d"
+      ],
+      "totalTopicos": 7,
+      "refsDetectadas": 140,
+      "workSegmentsDetectados": 230,
+      "refsVerificadas": 118,
+      "workSegmentsVerificados": 198,
+      "refsComWarning": 8,
+      "totalAmbiguidades": 126,
+      "statusLote": "partially_verified_8c1_8_8a_8b_and_8c"
+    },
+    "Lote 5": {
+      "topicos": [
+        "42.9",
+        "42.9a",
+        "42.9b",
+        "42.9c",
+        "42.9d",
+        "42.9e",
+        "42.9f",
+        "42.9g"
+      ],
+      "totalTopicos": 8,
+      "refsDetectadas": 195,
+      "workSegmentsDetectados": 308,
+      "refsVerificadas": 0,
+      "workSegmentsVerificados": 0,
+      "refsComWarning": 16,
+      "totalAmbiguidades": 209,
+      "statusLote": "needs_verification"
+    },
+    "Lote 6": {
+      "topicos": [
+        "42.10",
+        "42.10a",
+        "42.10b",
+        "42.10c",
+        "42.10d",
+        "42.11",
+        "42.11a",
+        "42.11b"
+      ],
+      "totalTopicos": 8,
+      "refsDetectadas": 179,
+      "workSegmentsDetectados": 337,
+      "refsVerificadas": 0,
+      "workSegmentsVerificados": 0,
+      "refsComWarning": 10,
+      "totalAmbiguidades": 167,
+      "statusLote": "needs_verification"
+    }
+  },
+  "porPagina": {
+    "p.859": {
+      "pagina": 859,
+      "entradasDetectadas": 19,
+      "verificadasNoVault": 19,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 20,
+      "topicosPresentes": [
+        "42.1",
+        "42.1a",
+        "42.1b"
+      ]
+    },
+    "p.860": {
+      "pagina": 860,
+      "entradasDetectadas": 35,
+      "verificadasNoVault": 34,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 32,
+      "topicosPresentes": [
+        "42.1b",
+        "42.1c",
+        "42.1d",
+        "42.1e",
+        "42.1f",
+        "42.2"
+      ]
+    },
+    "p.861": {
+      "pagina": 861,
+      "entradasDetectadas": 49,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 42,
+      "topicosPresentes": [
+        "42.2",
+        "42.3"
+      ]
+    },
+    "p.862": {
+      "pagina": 862,
+      "entradasDetectadas": 46,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 48,
+      "topicosPresentes": [
+        "42.4",
+        "42.5"
+      ]
+    },
+    "p.863": {
+      "pagina": 863,
+      "entradasDetectadas": 54,
+      "verificadasNoVault": 0,
+      "refsComWarning": 4,
+      "totalAmbiguidades": 34,
+      "topicosPresentes": [
+        "42.5",
+        "42.6",
+        "42.6a",
+        "42.6b"
+      ]
+    },
+    "p.864": {
+      "pagina": 864,
+      "entradasDetectadas": 50,
+      "verificadasNoVault": 0,
+      "refsComWarning": 5,
+      "totalAmbiguidades": 39,
+      "topicosPresentes": [
+        "42.6b",
+        "42.6c",
+        "42.6d",
+        "42.6e"
+      ]
+    },
+    "p.865": {
+      "pagina": 865,
+      "entradasDetectadas": 40,
+      "verificadasNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 46,
+      "topicosPresentes": [
+        "42.6e",
+        "42.7"
+      ]
+    },
+    "p.866": {
+      "pagina": 866,
+      "entradasDetectadas": 42,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 43,
+      "topicosPresentes": [
+        "42.7",
+        "42.8",
+        "42.8a"
+      ]
+    },
+    "p.867": {
+      "pagina": 867,
+      "entradasDetectadas": 42,
+      "verificadasNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 53,
+      "topicosPresentes": [
+        "42.8a",
+        "42.8b"
+      ]
+    },
+    "p.868": {
+      "pagina": 868,
+      "entradasDetectadas": 47,
+      "verificadasNoVault": 18,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 27,
+      "topicosPresentes": [
+        "42.8b",
+        "42.8c",
+        "42.8c(1)",
+        "42.8c(2)",
+        "42.8d"
+      ]
+    },
+    "p.869": {
+      "pagina": 869,
+      "entradasDetectadas": 52,
+      "verificadasNoVault": 0,
+      "refsComWarning": 7,
+      "totalAmbiguidades": 54,
+      "topicosPresentes": [
+        "42.8d",
+        "42.9",
+        "42.9a",
+        "42.9b"
+      ]
+    },
+    "p.870": {
+      "pagina": 870,
+      "entradasDetectadas": 40,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 34,
+      "topicosPresentes": [
+        "42.9b",
+        "42.9c",
+        "42.9d"
+      ]
+    },
+    "p.871": {
+      "pagina": 871,
+      "entradasDetectadas": 45,
+      "verificadasNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 43,
+      "topicosPresentes": [
+        "42.9d",
+        "42.9e"
+      ]
+    },
+    "p.872": {
+      "pagina": 872,
+      "entradasDetectadas": 40,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 53,
+      "topicosPresentes": [
+        "42.9e",
+        "42.9f"
+      ]
+    },
+    "p.873": {
+      "pagina": 873,
+      "entradasDetectadas": 52,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 43,
+      "topicosPresentes": [
+        "42.9f",
+        "42.9g",
+        "42.10",
+        "42.10a"
+      ]
+    },
+    "p.874": {
+      "pagina": 874,
+      "entradasDetectadas": 43,
+      "verificadasNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 22,
+      "topicosPresentes": [
+        "42.10a",
+        "42.10b",
+        "42.10c"
+      ]
+    },
+    "p.875": {
+      "pagina": 875,
+      "entradasDetectadas": 49,
+      "verificadasNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 29,
+      "topicosPresentes": [
+        "42.10c",
+        "42.10d"
+      ]
+    },
+    "p.876": {
+      "pagina": 876,
+      "entradasDetectadas": 19,
+      "verificadasNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 46,
+      "topicosPresentes": [
+        "42.11",
+        "42.11a"
+      ]
+    },
+    "p.877": {
+      "pagina": 877,
+      "entradasDetectadas": 37,
+      "verificadasNoVault": 0,
+      "refsComWarning": 4,
+      "totalAmbiguidades": 49,
+      "topicosPresentes": [
+        "42.11a",
+        "42.11b"
+      ]
+    },
+    "p.878": {
+      "pagina": 878,
+      "entradasDetectadas": 7,
+      "verificadasNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 7,
+      "topicosPresentes": [
+        "42.11b"
+      ]
+    }
+  },
+  "porTopico": {
+    "42.1": {
+      "topicoId": "topic:justica:1",
+      "topicCode": "42.1",
+      "nomeEn": "Diverse conceptions of justice",
+      "tipo": "heading_node",
+      "paginas": [
+        859
+      ],
+      "refsDetectadas": 0,
+      "workSegmentsDetectados": 0,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 0,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 1"
+    },
+    "42.1a": {
+      "topicoId": "topic:justica:1a",
+      "topicCode": "42.1a",
+      "nomeEn": "Justice as the interest of the stronger or conformity to the will of the sovereign",
+      "tipo": "leaf_node",
+      "paginas": [
+        859
+      ],
+      "refsDetectadas": 18,
+      "workSegmentsDetectados": 27,
+      "refsVerificadasNoVault": 18,
+      "workSegmentsVerificadosNoVault": 27,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 17,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.1b": {
+      "topicoId": "topic:justica:1b",
+      "topicCode": "42.1b",
+      "nomeEn": "Justice as harmony or right order in the soul: original justice",
+      "tipo": "leaf_node",
+      "paginas": [
+        859,
+        860
+      ],
+      "refsDetectadas": 8,
+      "workSegmentsDetectados": 12,
+      "refsVerificadasNoVault": 8,
+      "workSegmentsVerificadosNoVault": 12,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 4,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.1c": {
+      "topicoId": "topic:justica:1c",
+      "topicCode": "42.1c",
+      "nomeEn": "Justice as a moral virtue directing activity in relation to others and the good of another",
+      "tipo": "leaf_node",
+      "paginas": [
+        860
+      ],
+      "refsDetectadas": 11,
+      "workSegmentsDetectados": 17,
+      "refsVerificadasNoVault": 11,
+      "workSegmentsVerificadosNoVault": 17,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 12,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.1d": {
+      "topicoId": "topic:justica:1d",
+      "topicCode": "42.1d",
+      "nomeEn": "Justice as the whole of virtue and as a particular virtue",
+      "tipo": "leaf_node",
+      "paginas": [
+        860
+      ],
+      "refsDetectadas": 8,
+      "workSegmentsDetectados": 12,
+      "refsVerificadasNoVault": 8,
+      "workSegmentsVerificadosNoVault": 12,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 6,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.1e": {
+      "topicoId": "topic:justica:1e",
+      "topicCode": "42.1e",
+      "nomeEn": "Justice as an act of will or duty fulfilling obligations: the relation between debt and duty",
+      "tipo": "leaf_node",
+      "paginas": [
+        860
+      ],
+      "refsDetectadas": 3,
+      "workSegmentsDetectados": 7,
+      "refsVerificadasNoVault": 3,
+      "workSegmentsVerificadosNoVault": 7,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 7,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.1f": {
+      "topicoId": "topic:justica:1f",
+      "topicCode": "42.1f",
+      "nomeEn": "Justice as a custom or moral sentiment based on comparative utility",
+      "tipo": "leaf_node",
+      "paginas": [
+        860
+      ],
+      "refsDetectadas": 5,
+      "workSegmentsDetectados": 7,
+      "refsVerificadasNoVault": 5,
+      "workSegmentsVerificadosNoVault": 7,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 4,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 1"
+    },
+    "42.2": {
+      "topicoId": "topic:justica:2",
+      "topicCode": "42.2",
+      "nomeEn": "The precepts of justice: doing good, harming no one, rendering to each his own",
+      "tipo": "leaf_node",
+      "paginas": [
+        860,
+        861
+      ],
+      "refsDetectadas": 27,
+      "workSegmentsDetectados": 58,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 27,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 2"
+    },
+    "42.3": {
+      "topicoId": "topic:justica:3",
+      "topicCode": "42.3",
+      "nomeEn": "The duties of justice compared with the generosity of love and friendship",
+      "tipo": "leaf_node",
+      "paginas": [
+        861
+      ],
+      "refsDetectadas": 23,
+      "workSegmentsDetectados": 34,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 17,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 2"
+    },
+    "42.4": {
+      "topicoId": "topic:justica:4",
+      "topicCode": "42.4",
+      "nomeEn": "The comparison of justice and expediency: the choice between justice and utility",
+      "tipo": "leaf_node",
+      "paginas": [
+        862
+      ],
+      "refsDetectadas": 25,
+      "workSegmentsDetectados": 53,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 33,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 2"
+    },
+    "42.5": {
+      "topicoId": "topic:justica:5",
+      "topicCode": "42.5",
+      "nomeEn": "Justice and equality: the kinds of justice in relation to proportions of equality",
+      "tipo": "leaf_node",
+      "paginas": [
+        862,
+        863
+      ],
+      "refsDetectadas": 25,
+      "workSegmentsDetectados": 32,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 16,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 2"
+    },
+    "42.6": {
+      "topicoId": "topic:justica:6",
+      "topicCode": "42.6",
+      "nomeEn": "Justice and liberty: the theory of human rights",
+      "tipo": "leaf_node",
+      "paginas": [
+        863
+      ],
+      "refsDetectadas": 28,
+      "workSegmentsDetectados": 41,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 15,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.6a": {
+      "topicoId": "topic:justica:6a",
+      "topicCode": "42.6a",
+      "nomeEn": "The relation of natural rights to natural law and natural justice",
+      "tipo": "leaf_node",
+      "paginas": [
+        863
+      ],
+      "refsDetectadas": 20,
+      "workSegmentsDetectados": 21,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 13,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.6b": {
+      "topicoId": "topic:justica:6b",
+      "topicCode": "42.6b",
+      "nomeEn": "The relation between natural and positive rights, and between natural and legal justice",
+      "tipo": "leaf_node",
+      "paginas": [
+        863,
+        864
+      ],
+      "refsDetectadas": 20,
+      "workSegmentsDetectados": 29,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 21,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.6c": {
+      "topicoId": "topic:justica:6c",
+      "topicCode": "42.6c",
+      "nomeEn": "The inalienability of natural rights: their violation or destruction by tyranny or enslavement",
+      "tipo": "leaf_node",
+      "paginas": [
+        864
+      ],
+      "refsDetectadas": 15,
+      "workSegmentsDetectados": 16,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 9,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.6d": {
+      "topicoId": "topic:justica:6d",
+      "topicCode": "42.6d",
+      "nomeEn": "Justice as the basis of the distinction between liberty and license",
+      "tipo": "leaf_node",
+      "paginas": [
+        864
+      ],
+      "refsDetectadas": 15,
+      "workSegmentsDetectados": 18,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 14,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.6e": {
+      "topicoId": "topic:justica:6e",
+      "topicCode": "42.6e",
+      "nomeEn": "Justice and natural rights as the source of civil liberty and constitutional limits upon government",
+      "tipo": "leaf_node",
+      "paginas": [
+        864,
+        865
+      ],
+      "refsDetectadas": 11,
+      "workSegmentsDetectados": 14,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 6,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.7": {
+      "topicoId": "topic:justica:7",
+      "topicCode": "42.7",
+      "nomeEn": "Domestic justice: the problems of right and duty in the family or household",
+      "tipo": "leaf_node",
+      "paginas": [
+        865,
+        866
+      ],
+      "refsDetectadas": 34,
+      "workSegmentsDetectados": 73,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 41,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 3"
+    },
+    "42.8": {
+      "topicoId": "topic:justica:8",
+      "topicCode": "42.8",
+      "nomeEn": "Economic justice: justice in production, distribution, and exchange",
+      "tipo": "leaf_node",
+      "paginas": [
+        866
+      ],
+      "refsDetectadas": 38,
+      "workSegmentsDetectados": 72,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 40,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 4"
+    },
+    "42.8a": {
+      "topicoId": "topic:justica:8a",
+      "topicCode": "42.8a",
+      "nomeEn": "Private and public property: the just distribution of economic goods",
+      "tipo": "leaf_node",
+      "paginas": [
+        866,
+        867
+      ],
+      "refsDetectadas": 33,
+      "workSegmentsDetectados": 61,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 34,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 4"
+    },
+    "42.8b": {
+      "topicoId": "topic:justica:8b",
+      "topicCode": "42.8b",
+      "nomeEn": "Fair wages and prices: the just exchange of goods and services",
+      "tipo": "leaf_node",
+      "paginas": [
+        867,
+        868
+      ],
+      "refsDetectadas": 26,
+      "workSegmentsDetectados": 43,
+      "refsVerificadasNoVault": 26,
+      "workSegmentsVerificadosNoVault": 43,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 30,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 4"
+    },
+    "42.8c": {
+      "topicoId": "topic:justica:8c",
+      "topicCode": "42.8c",
+      "nomeEn": "Justice in the organization of production",
+      "tipo": "leaf_node",
+      "paginas": [
+        868
+      ],
+      "refsDetectadas": 2,
+      "workSegmentsDetectados": 2,
+      "refsVerificadasNoVault": 2,
+      "workSegmentsVerificadosNoVault": 2,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 0,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 4"
+    },
+    "42.8c(1)": {
+      "topicoId": "topic:justica:8c-1",
+      "topicCode": "42.8c(1)",
+      "nomeEn": "Economic exploitation: chattel slavery and wage slavery",
+      "tipo": "leaf_node",
+      "paginas": [
+        868
+      ],
+      "refsDetectadas": 18,
+      "workSegmentsDetectados": 21,
+      "refsVerificadasNoVault": 18,
+      "workSegmentsVerificadosNoVault": 21,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 9,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 4"
+    },
+    "42.8c(2)": {
+      "topicoId": "topic:justica:8c-2",
+      "topicCode": "42.8c(2)",
+      "nomeEn": "Profit and unearned increment",
+      "tipo": "leaf_node",
+      "paginas": [
+        868
+      ],
+      "refsDetectadas": 4,
+      "workSegmentsDetectados": 4,
+      "refsVerificadasNoVault": 4,
+      "workSegmentsVerificadosNoVault": 4,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 2,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 4"
+    },
+    "42.8d": {
+      "topicoId": "topic:justica:8d",
+      "topicCode": "42.8d",
+      "nomeEn": "Justice and the use of money: usury and interest rates",
+      "tipo": "leaf_node",
+      "paginas": [
+        868,
+        869
+      ],
+      "refsDetectadas": 18,
+      "workSegmentsDetectados": 29,
+      "refsVerificadasNoVault": 18,
+      "workSegmentsVerificadosNoVault": 29,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 11,
+      "statusReconciliacao": "verified",
+      "lote": "Lote 4"
+    },
+    "42.9": {
+      "topicoId": "topic:justica:9",
+      "topicCode": "42.9",
+      "nomeEn": "Political justice: justice in government",
+      "tipo": "leaf_node",
+      "paginas": [
+        869
+      ],
+      "refsDetectadas": 20,
+      "workSegmentsDetectados": 27,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 4,
+      "totalAmbiguidades": 23,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9a": {
+      "topicoId": "topic:justica:9a",
+      "topicCode": "42.9a",
+      "nomeEn": "The natural and the conventional in political justice: the justice of the state as a natural society",
+      "tipo": "leaf_node",
+      "paginas": [
+        869
+      ],
+      "refsDetectadas": 15,
+      "workSegmentsDetectados": 22,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 17,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9b": {
+      "topicoId": "topic:justica:9b",
+      "topicCode": "42.9b",
+      "nomeEn": "Justice as the moral principle of political organization: the bond of men in states",
+      "tipo": "leaf_node",
+      "paginas": [
+        869,
+        870
+      ],
+      "refsDetectadas": 18,
+      "workSegmentsDetectados": 33,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 17,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9c": {
+      "topicoId": "topic:justica:9c",
+      "topicCode": "42.9c",
+      "nomeEn": "The criteria of justice in diverse forms of government: the justice of kingship, aristocracy, constitutional government, democracy, and oligarchy",
+      "tipo": "leaf_node",
+      "paginas": [
+        870
+      ],
+      "refsDetectadas": 13,
+      "workSegmentsDetectados": 17,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 5,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9d": {
+      "topicoId": "topic:justica:9d",
+      "topicCode": "42.9d",
+      "nomeEn": "The relation between ruler and ruled: the justice of imperial rule and the subjugation of conquered peoples",
+      "tipo": "leaf_node",
+      "paginas": [
+        870,
+        871
+      ],
+      "refsDetectadas": 34,
+      "workSegmentsDetectados": 61,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 39,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9e": {
+      "topicoId": "topic:justica:9e",
+      "topicCode": "42.9e",
+      "nomeEn": "The just distribution of honors, positions, offices: the justice of qualifications for suffrage and citizenship",
+      "tipo": "leaf_node",
+      "paginas": [
+        871,
+        872
+      ],
+      "refsDetectadas": 29,
+      "workSegmentsDetectados": 43,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 27,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9f": {
+      "topicoId": "topic:justica:9f",
+      "topicCode": "42.9f",
+      "nomeEn": "Justice between states: the problem of right and might in international relations",
+      "tipo": "leaf_node",
+      "paginas": [
+        872,
+        873
+      ],
+      "refsDetectadas": 40,
+      "workSegmentsDetectados": 66,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 53,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.9g": {
+      "topicoId": "topic:justica:9g",
+      "topicCode": "42.9g",
+      "nomeEn": "The tempering of political justice by clemency: amnesty, pardon, and restitution",
+      "tipo": "leaf_node",
+      "paginas": [
+        873
+      ],
+      "refsDetectadas": 26,
+      "workSegmentsDetectados": 39,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 2,
+      "totalAmbiguidades": 28,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 5"
+    },
+    "42.10": {
+      "topicoId": "topic:justica:10",
+      "topicCode": "42.10",
+      "nomeEn": "Justice and law",
+      "tipo": "leaf_node",
+      "paginas": [
+        873
+      ],
+      "refsDetectadas": 19,
+      "workSegmentsDetectados": 28,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 12,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.10a": {
+      "topicoId": "topic:justica:10a",
+      "topicCode": "42.10a",
+      "nomeEn": "The measure of justice in laws made by the state: the injustice of unlawful or arbitrary government",
+      "tipo": "leaf_node",
+      "paginas": [
+        873,
+        874
+      ],
+      "refsDetectadas": 26,
+      "workSegmentsDetectados": 39,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 12,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.10b": {
+      "topicoId": "topic:justica:10b",
+      "topicCode": "42.10b",
+      "nomeEn": "The legality of unjust laws: the extent of obedience due to unjust laws",
+      "tipo": "leaf_node",
+      "paginas": [
+        874
+      ],
+      "refsDetectadas": 19,
+      "workSegmentsDetectados": 29,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 1,
+      "totalAmbiguidades": 11,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.10c": {
+      "topicoId": "topic:justica:10c",
+      "topicCode": "42.10c",
+      "nomeEn": "The justice of punishment for unjust acts: the distinction between retribution and revenge",
+      "tipo": "leaf_node",
+      "paginas": [
+        874,
+        875
+      ],
+      "refsDetectadas": 32,
+      "workSegmentsDetectados": 52,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 20,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.10d": {
+      "topicoId": "topic:justica:10d",
+      "topicCode": "42.10d",
+      "nomeEn": "The correction of legal justice: equity in the administration of law",
+      "tipo": "leaf_node",
+      "paginas": [
+        875
+      ],
+      "refsDetectadas": 20,
+      "workSegmentsDetectados": 24,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 10,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.11": {
+      "topicoId": "topic:justica:11",
+      "topicCode": "42.11",
+      "nomeEn": "Divine justice: the relation of God or the gods to man",
+      "tipo": "heading_node",
+      "paginas": [
+        876
+      ],
+      "refsDetectadas": 0,
+      "workSegmentsDetectados": 0,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 0,
+      "totalAmbiguidades": 0,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.11a": {
+      "topicoId": "topic:justica:11a",
+      "topicCode": "42.11a",
+      "nomeEn": "The divine government of man: the justice and mercy of God",
+      "tipo": "leaf_node",
+      "paginas": [
+        876,
+        877
+      ],
+      "refsDetectadas": 33,
+      "workSegmentsDetectados": 97,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 3,
+      "totalAmbiguidades": 61,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    },
+    "42.11b": {
+      "topicoId": "topic:justica:11b",
+      "topicCode": "42.11b",
+      "nomeEn": "The debt of man to God or the gods: the religious acts of justice",
+      "tipo": "leaf_node",
+      "paginas": [
+        877,
+        878
+      ],
+      "refsDetectadas": 30,
+      "workSegmentsDetectados": 68,
+      "refsVerificadasNoVault": 0,
+      "workSegmentsVerificadosNoVault": 0,
+      "refsComWarning": 4,
+      "totalAmbiguidades": 41,
+      "statusReconciliacao": "needs_verification",
+      "lote": "Lote 6"
+    }
+  },
+  "totalReferencias": 814,
+  "totalWorkSegments": 1351,
+  "referenciasVerificadas": 441,
+  "workSegmentsVerificados": 706,
+  "referenciasPendentes": 373,
+  "workSegmentsPendentes": 645
+}

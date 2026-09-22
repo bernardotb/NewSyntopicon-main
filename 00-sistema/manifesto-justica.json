@@ -1,0 +1,947 @@
+{
+  "versao": "2.18.0",
+  "ideiaId": "idea:justica",
+  "legacyIds": [
+    "idea:042",
+    "idea:justice",
+    "GI-42"
+  ],
+  "numeroCanonico": 42,
+  "slug": "gi-42-justica",
+  "canonicalName": "Justice",
+  "displayNamePtBr": "Justiça",
+  "caminhoVault": "01-grandes-ideias/gi-42-justica.md",
+  "edicaoBase": 1952,
+  "fonteDocumental": "source:pdf-justice-1952",
+  "gbwwVolume": 2,
+  "syntopiconVolume": 1,
+  "paginas": {
+    "inicio": 850,
+    "fim": 879,
+    "outlineInicio": 857,
+    "outlineFim": 858,
+    "referenciasInicio": 859,
+    "referenciasFim": 878,
+    "remissoes": 878,
+    "leiturasAdicionais": 879
+  },
+  "estruturaTopicos": {
+    "ramosPrincipais": 11,
+    "descendentes": 30,
+    "totalNos": 41,
+    "statusAuditoria": "verified_against_pdf_p857_858"
+  },
+  "datasetStatus": {
+    "registrosNoDatasetApp": 790,
+    "registrosAlegadosIngestao": 826,
+    "decomposicaoAlegada": {
+      "autorais": 795,
+      "biblicos": 31
+    },
+    "provenienciaRegistros": "nossa ingestao estruturada do corpus de Justice (1952)",
+    "statusReconciliacao": "needs_verification",
+    "notaEpistemologica": "A contagem de 826 registros decorre de ingestao estruturada e nao de estatistica impressa por Mortimer Adler. Permanece como needs_verification ate conclusao de auditoria pagina a pagina de todo o capitulo 42.",
+    "corpusIngestionVerification": "needs_verification",
+    "reconciliacaoHistorica826": {
+      "status": "resolvido_documentalmente",
+      "totalFisicoCanonico1952": 808,
+      "totalAlegadoIngestaoLegada": 826,
+      "diferencaExata": 18,
+      "origemDiferenca": "Duplicacao historica de 8c(1): as 18 referencias de 8c(1) (refs 386 a 403 do dataset bruto) foram erroneamente atribuidas a 8c pela ausencia do subtopico no extrator primitivo. Quando 8c(1) foi posteriormente inserido sem expurgar as entradas de 8c, o corpus ficou inflacionado em exatamente 18 registros duplicados.",
+      "equacaoDocumental": "826 (legado preliminar) - 18 (duplicatas de 8c-1 em 8c) = 808 (entradas fisicas impressas no Syntopicon 1952)"
+    }
+  },
+  "goldenCaseReconciliacao": {
+    "topicoId": "topic:justica:8c-1",
+    "topicoSlug": "topico-42-8c-1",
+    "codigo": "42.8c(1)",
+    "nomeEn": "Economic exploitation: chattel slavery and wage slavery",
+    "nomePt": "Exploração econômica: escravidão como propriedade e escravidão assalariada",
+    "syntopiconPagina": 868,
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "entradasImpressasNoSyntopicon1952": 18,
+      "entidadesAutoraisDistintas": 17,
+      "autoresIndividuais": 16,
+      "obrasDistintas": 20,
+      "locatorsAtomicosTotais": 38
+    },
+    "explicacaoDiscrepancias": {
+      "origemMenção10Autores": "Recorte editorial seletivo do protótipo preliminar que agrupou apenas pensadores clássico-modernos (Aristóteles, Plutarco, Aquino, Milton, Rousseau, Montesquieu, Adam Smith, Kant, Hegel, Marx). Erro factual detectado: Montesquieu pertencia a 8b (linha anterior na p. 868) e foi incorretamente copiado para 8c(1), enquanto Swift, Gibbon, Constituição dos EUA, Mill, Boswell, Tolstói e Dostoiévski foram omitidos.",
+      "origemMenção16Referencias": "Contagem agregada por autores individuais primários (16 pensadores), ou unificação das 2 linhas de Gibbon (vols 40 e 41) e de Marx/Engels sob Marx, com exclusão da Constituição dos EUA como fonte jurídica institucional.",
+      "origemMenção18Entradas": "Exatamente 18 blocos físicos de citação tipográfica impressos no Syntopicon 1952, p. 868, cada um iniciado por número de volume da GBWW (9, 14, 20, 32, 36, 38, 39, 40, 41, 42, 43, 43, 44, 46, 50, 50, 51, 52)."
+    },
+    "referenciasAuditadas": [
+      {
+        "ordem": 1,
+        "volume": 9,
+        "autor": "author:aristotle",
+        "obras": [
+          "Ethics",
+          "Politics",
+          "Athenian Constitution"
+        ],
+        "locatorRaw": "Ethics, BK v, CH 6 [1134b7-17] 382b-c; BK viii, CH 11 [1161a30-b10] 413c-d / Politics, BK i, CH 3-7 446d-449c; CH 11 [1259a18]-CH 13 [1260b7] 453c-455a; BK iii, CH 6 [1278b32-37] 476a-b / Athenian Constitution, CH 2 553a-c"
+      },
+      {
+        "ordem": 2,
+        "volume": 14,
+        "autor": "author:plutarch",
+        "obras": [
+          "Lycurgus",
+          "Marcus Cato"
+        ],
+        "locatorRaw": "Lycurgus, 46c-47a / Marcus Cato, 278d-279c"
+      },
+      {
+        "ordem": 3,
+        "volume": 20,
+        "autor": "author:aquinas",
+        "obras": [
+          "Summa Theologica"
+        ],
+        "locatorRaw": "Summa Theologica, PART I-II, Q 105, A 4, ANS and REP 1-4 318b-321a"
+      },
+      {
+        "ordem": 4,
+        "volume": 32,
+        "autor": "author:milton",
+        "obras": [
+          "Samson Agonistes"
+        ],
+        "locatorRaw": "Samson Agonistes [1-51] 339b-340b"
+      },
+      {
+        "ordem": 5,
+        "volume": 36,
+        "autor": "author:swift",
+        "obras": [
+          "Gulliver's Travels"
+        ],
+        "locatorRaw": "Gulliver, PART iv, 154b-155a"
+      },
+      {
+        "ordem": 6,
+        "volume": 38,
+        "autor": "author:rousseau",
+        "obras": [
+          "Discourse on Inequality"
+        ],
+        "locatorRaw": "Inequality, 352a; 353c-355b; 365b-366a"
+      },
+      {
+        "ordem": 7,
+        "volume": 39,
+        "autor": "author:smith",
+        "obras": [
+          "Wealth of Nations"
+        ],
+        "locatorRaw": "Wealth of Nations, BK i, 28a-d; 61c-d; 109d-110d; BK iii, 165b-170c; BK iv, 253c-254a; 287c-d"
+      },
+      {
+        "ordem": 8,
+        "volume": 40,
+        "autor": "author:gibbon",
+        "obras": [
+          "Decline and Fall"
+        ],
+        "locatorRaw": "Decline and Fall, 144b"
+      },
+      {
+        "ordem": 9,
+        "volume": 41,
+        "autor": "author:gibbon",
+        "obras": [
+          "Decline and Fall"
+        ],
+        "locatorRaw": "Decline and Fall, 45b"
+      },
+      {
+        "ordem": 10,
+        "volume": 42,
+        "autor": "author:kant",
+        "obras": [
+          "Science of Right"
+        ],
+        "locatorRaw": "Science of Right, 421c-422d; 445c-446a"
+      },
+      {
+        "ordem": 11,
+        "volume": 43,
+        "autor": "author:founding-fathers-us",
+        "obras": [
+          "Constitution of the United States"
+        ],
+        "locatorRaw": "ARTICLE i, SECT 9 [260-266] 13d; ARTICLE IV, SECT 2 [529-535] 16b | AMENDMENTS, XIII 18c"
+      },
+      {
+        "ordem": 12,
+        "volume": 43,
+        "autor": "author:mill",
+        "obras": [
+          "Representative Government"
+        ],
+        "locatorRaw": "Representative Government, 339d-340c"
+      },
+      {
+        "ordem": 13,
+        "volume": 44,
+        "autor": "author:boswell",
+        "obras": [
+          "Life of Johnson"
+        ],
+        "locatorRaw": "Johnson, 363c-364a"
+      },
+      {
+        "ordem": 14,
+        "volume": 46,
+        "autor": "author:hegel",
+        "obras": [
+          "Philosophy of History"
+        ],
+        "locatorRaw": "Philosophy of History, PART iv, 335b-336c"
+      },
+      {
+        "ordem": 15,
+        "volume": 50,
+        "autor": "author:marx",
+        "obras": [
+          "Capital"
+        ],
+        "locatorRaw": "Capital, 1a-383d esp 102b-105c, 112c-115c, 127c-131a, 150a-c, 176a-178d, 193a-209a, 264a-275c, 282d-286a, 296c-301b, 354a-355d, 366a-368b, 376c-377a, 379a-383d"
+      },
+      {
+        "ordem": 16,
+        "volume": 50,
+        "autor": "author:marx-engels",
+        "obras": [
+          "Communist Manifesto"
+        ],
+        "locatorRaw": "Communist Manifesto, 420c-d; 422c-423a; 424b-425a; 426b-428a"
+      },
+      {
+        "ordem": 17,
+        "volume": 51,
+        "autor": "author:tolstoy",
+        "obras": [
+          "War and Peace"
+        ],
+        "locatorRaw": "War and Peace, BK v, 211a-213a"
+      },
+      {
+        "ordem": 18,
+        "volume": 52,
+        "autor": "author:dostoevsky",
+        "obras": [
+          "Brothers Karamazov"
+        ],
+        "locatorRaw": "Brothers Karamazov, BK vi, 165b-c"
+      }
+    ]
+  },
+  "invariantesArquiteturais": {
+    "identidadeAutoritativa": "idea:justica",
+    "legacyIdsPermitidos": [
+      "idea:042",
+      "idea:justice",
+      "GI-42"
+    ],
+    "regraParidadeNumerica": "numeroCanonico == numero-canonico == numero == 42",
+    "distincaoCamadas": {
+      "layer": "canonical (natureza da entidade GreatIdea)",
+      "camadas": [
+        "canonical",
+        "source",
+        "editorial",
+        "contemporary-extension",
+        "personal"
+      ]
+    },
+    "separacaoVerificacao": {
+      "verification": "verified (estrutura e outline da nota)",
+      "corpusIngestionVerification": "needs_verification (estatistica global dos 826 registros pendente de auditoria pagina a pagina)"
+    },
+    "fixtureRegressaoGoldenCase8c1": {
+      "entradasImpressas": 18,
+      "referenciasMaterializadas": 18,
+      "autores": 17,
+      "obras": 20,
+      "volumes": 16,
+      "passagens": 0
+    },
+    "fixtureRegressaoLote1": {
+      "totalReferencias": 53,
+      "referenciasPorSubtopico": {
+        "1a": 18,
+        "1b": 8,
+        "1c": 11,
+        "1d": 8,
+        "1e": 3,
+        "1f": 5
+      },
+      "segmentosObra": 82,
+      "autores": 26,
+      "obras": 51,
+      "volumes": 28,
+      "passagens": 0
+    }
+  },
+  "resumoMetricas": {
+    "grandesIdeias": 1,
+    "topicos": 41,
+    "referencias": 441,
+    "referenciasAuditadas": 441,
+    "passagens": 0,
+    "obras": 183,
+    "autores": 54,
+    "volumes": 43,
+    "indices": 2,
+    "totalEntidadesMaterializadas": 767,
+    "totalReferenciasVerificadas": 441,
+    "totalWorkSegmentsVerificados": 706,
+    "totalReferenciasCandidatas": 373,
+    "totalObras": 187,
+    "baselineAtivo": "STAGING_BASELINE_JUSTICE_1952_V9"
+  },
+  "lote1Reconciliacao": {
+    "escopo": "Tópico 1 completo (42.1 + 1a a 1f)",
+    "paginasSyntopicon": "859–860",
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "entradasImpressasTotais": 53,
+      "segmentosObraTotais": 82,
+      "entidadesAutoraisDistintas": 26,
+      "obrasDistintas": 51,
+      "volumesDistintos": 28,
+      "passagensCriadas": 0
+    },
+    "distribuicaoSubtopicos": {
+      "42.1": {
+        "tipo": "heading_node",
+        "entradasImpressas": 0
+      },
+      "42.1a": {
+        "nomePt": "Justiça como interesse do mais forte",
+        "entradasImpressas": 18,
+        "segmentosObra": 27
+      },
+      "42.1b": {
+        "nomePt": "Justiça como harmonia na alma",
+        "entradasImpressas": 8,
+        "segmentosObra": 12
+      },
+      "42.1c": {
+        "nomePt": "Justiça como virtude moral em relação aos outros",
+        "entradasImpressas": 11,
+        "segmentosObra": 17
+      },
+      "42.1d": {
+        "nomePt": "Justiça como totalidade da virtude e virtude particular",
+        "entradasImpressas": 8,
+        "segmentosObra": 12
+      },
+      "42.1e": {
+        "nomePt": "Justiça como dever e harmonia de vontades",
+        "entradasImpressas": 3,
+        "segmentosObra": 7
+      },
+      "42.1f": {
+        "nomePt": "Justiça como costume ou utilidade",
+        "entradasImpressas": 5,
+        "segmentosObra": 7
+      }
+    },
+    "casosEspeciaisAuditados": [
+      "Transição entre colunas na p. 859 (Locke rompido entre base da Col 1 e topo da Col 2)",
+      "Erro de OCR no cabeçalho do subtópico 1b ('Injustice as harmony' lido em vez de '1b. Justice as harmony')",
+      "Citação repetida de autor em volumes distintos (Aquinas vols 19 e 20; Aristóteles vols 8 e 9)",
+      "Entradas multiobra (e.g. Platão com 5 diálogos em 1b, Kant com 4 tratados em 1e)",
+      "Desambiguação de obras homônimas (Ethics de Aristóteles vol 9 vs Ethics de Spinoza vol 31)"
+    ]
+  },
+  "stagingPipelineStatus": {
+    "baseline": "STAGING_BASELINE_JUSTICE_1952_V8",
+    "scriptExtrator": "00-sistema/scripts/extract_staging.py",
+    "saidasStaging": {
+      "referenciasCandidatas": "00-sistema/staging/referencias-candidatas.json",
+      "ambiguidades": "00-sistema/staging/ambiguidades.json",
+      "cobertura": "00-sistema/staging/cobertura.json"
+    },
+    "contagensDocumentais": {
+      "totalEntradasDetectadas": 814,
+      "totalWorkSegmentsDetectados": 1350,
+      "totalEntradasVerificadasNoVault": 419,
+      "totalWorkSegmentsVerificadosNoVault": 673,
+      "totalEntradasCandidatasStaging": 395,
+      "totalReferenciasComWarning": 0,
+      "totalAmbiguidadesRegistradas": 779,
+      "status": "ACTIVE_CURRENT_STATE"
+    },
+    "esclarecimentoSemantico": {
+      "totalReferenciasComWarning": "53 referencias possuem warnings no registro de entidade (authorId nao resolvido ou formato atipico).",
+      "totalAmbiguidadesRegistradas": "764 eventos individuais de atrito documental registrados detalhadamente em ambiguidades.json."
+    },
+    "distribuicaoLotes": {
+      "Lote 1": {
+        "topicos": "42.1 (1a-1f)",
+        "paginas": "859-860",
+        "refsDetectadas": 53,
+        "workSegments": 82,
+        "refsVerificadas": 53,
+        "workSegmentsVerificados": 82,
+        "refsComWarning": 4,
+        "totalAmbiguidades": 50,
+        "status": "verified"
+      },
+      "Lote 2": {
+        "topicos": "42.2 a 42.5",
+        "paginas": "860-863",
+        "refsDetectadas": 100,
+        "workSegments": 177,
+        "refsVerificadas": 102,
+        "workSegmentsVerificados": 178,
+        "refsComWarning": 6,
+        "totalAmbiguidades": 93,
+        "status": "verified"
+      },
+      "Lote 3": {
+        "topicos": "42.6 (6a-6e) e 42.7",
+        "paginas": "863-866",
+        "refsDetectadas": 143,
+        "workSegments": 212,
+        "refsVerificadas": 146,
+        "workSegmentsVerificados": 215,
+        "refsComWarning": 9,
+        "totalAmbiguidades": 119,
+        "status": "verified"
+      },
+      "Lote 4": {
+        "topicos": "42.8 (8a-8d, incl. 8c-1 e 8c-2)",
+        "paginas": "866-869",
+        "refsDetectadas": 139,
+        "workSegments": 220,
+        "refsVerificadas": 90,
+        "workSegmentsVerificados": 153,
+        "refsComWarning": 8,
+        "totalAmbiguidades": 126,
+        "status": "partially_verified_8c1_8_and_8a"
+      },
+      "Lote 5": {
+        "topicos": "42.9 (9a-9g)",
+        "paginas": "869-873",
+        "refsDetectadas": 195,
+        "workSegments": 308,
+        "refsVerificadas": 0,
+        "workSegmentsVerificados": 0,
+        "refsComWarning": 16,
+        "totalAmbiguidades": 209,
+        "status": "needs_verification"
+      },
+      "Lote 6": {
+        "topicos": "42.10 (10a-10d) e 42.11 (11a-11b)",
+        "paginas": "873-878",
+        "refsDetectadas": 179,
+        "workSegments": 337,
+        "refsVerificadas": 0,
+        "workSegmentsVerificados": 0,
+        "refsComWarning": 10,
+        "totalAmbiguidades": 167,
+        "status": "needs_verification"
+      }
+    },
+    "status": "staged_baseline_frozen",
+    "notaEpistemologica": "O extrator geral processou pp. 859-878 de Justice.pdf, detectando 808 entradas fisicas e 1.337 segmentos de obra. Todas as entradas candidatas permanecem estritamente sob verification: needs_verification ate reconciliacao documental pagina a pagina.",
+    "totalEntradasDetectadas": 814,
+    "totalWorkSegmentsDetectados": 1350,
+    "totalEntradasVerificadasNoVault": 419,
+    "totalWorkSegmentsVerificadosNoVault": 673,
+    "referenciasCandidatasStaging": 395
+  },
+  "stagingBaseline": "STAGING_BASELINE_JUSTICE_1952_V9",
+  "topico42_4Reconciliacao": {
+    "topicoId": "topic:justica:4",
+    "topicoSlug": "topico-42-4",
+    "codigo": "4",
+    "nomeEn": "The comparison of justice and expediency: the relation of justice to utility or interest",
+    "nomePt": "A comparação entre justiça e conveniência: a relação da justiça com a utilidade ou o interesse",
+    "syntopiconPagina": 862,
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 25,
+      "workSegments": 53,
+      "autoresDistintos": 24,
+      "obrasDistintas": 53,
+      "volumesDistintos": 18,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "candidato19Montaigne": "Identificado como Montaigne (GBWW Vol. 25, Essays), não Tucídides",
+      "epictetoEAurelio": "Epicteto (author:epictetus) e Marco Aurélio (author:marcus-aurelius) mapeados com sucesso",
+      "apocrifos": "author:bible-apocrypha com História de Susana",
+      "obrasChaucer": "The Canterbury Tales e The Tale of Melibeus devidamente consolidados",
+      "obrasShakespeare": "GBWW Vol. 26 (Shakespeare I) com Henrique VI Parte 2 e Rei João materializados"
+    },
+    "status": "verified"
+  },
+  "topico42_5Reconciliacao": {
+    "topicoId": "topic:justica:5",
+    "topicoSlug": "topico-42-5",
+    "codigo": "5",
+    "nomeEn": "Justice and equality: the kinds of justice in relation to the measure and modes of equality and inequality",
+    "nomePt": "Justiça e igualdade: os tipos de justiça em relação à medida e aos modos de igualdade e desigualdade",
+    "syntopiconPaginas": [
+      862,
+      863
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 26,
+      "workSegments": 33,
+      "autoresOuFontesDistintos": 24,
+      "obrasDistintas": 32,
+      "gbwwVolumesDistintos": 21,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "divergenciaStagingReconciliada": {
+      "stagingOriginal": "25 referências / 32 workSegments",
+      "auditoriaDocumental": "26 referências / 33 workSegments",
+      "causaRaiz": "Entrada canônica de Karl Marx (Vol. 50, Capital, 25a-d) na p. 863 foi omitida pelo parser de staging devido a OCR corrompido ('SO MARX:' em vez de '50 MARX:'). Com a restauração da entrada física #24, o tópico totaliza 26 referências e 33 segmentos.",
+      "resolucao": "Corrigidos referencias-candidatas.json, ambiguidades.json e cobertura.json; materializadas as 26 referências canônicas no vault com status verified."
+    },
+    "status": "verified"
+  },
+  "previousBaseline": "STAGING_BASELINE_JUSTICE_1952_V8",
+  "baselineHistory": [
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V1",
+      "physicalReferenceCount": 808,
+      "status": "HISTORICAL_VALID (superseded_by_v2)",
+      "description": "Snapshot determinístico inicial de staging congelado em 808 referências físicas."
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V2",
+      "physicalReferenceCount": 809,
+      "status": "HISTORICAL_VALID (superseded_by_v3)",
+      "changeReason": {
+        "topic": "42.5",
+        "page": 863,
+        "recoveredReference": "50 MARX: Capital, 25a-d",
+        "ocrFailure": "SO MARX:",
+        "changeType": "missing-physical-reference-recovered-by-visual-audit"
+      }
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V3",
+      "physicalReferenceCount": 810,
+      "workSegmentCount": 1340,
+      "status": "HISTORICAL_VALID (superseded_by_v4)",
+      "changeReason": {
+        "topic": "42.6b",
+        "pages": [
+          863,
+          864
+        ],
+        "recoveredReference": "23 HOBBES: Leviathan, PART I, 113c-116c; 131a-c; 136d-137b; 138c; 151a-c",
+        "ocrFailure": "23 HOBBTS Lm0//w, pARni,113c-116c;131a-c; 136d-137b; 138c; 151a-c",
+        "changeType": "missing-physical-reference-recovered-by-visual-audit",
+        "referenceDelta": 1,
+        "workSegmentDelta": 1
+      }
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V4",
+      "physicalReferenceCount": 810,
+      "workSegmentCount": 1341,
+      "status": "HISTORICAL_VALID (superseded_by_v5)",
+      "changeReason": {
+        "topic": "42.6c",
+        "pages": [
+          864
+        ],
+        "recoveredSegment": "35 LOCKE: Toleration, 20d-21a",
+        "ocrFailure": "Parser dropped 'Toleration, 20d-21a /' and started locator at 'ment, CH n...'",
+        "changeType": "missing-work-segment-recovered-by-visual-audit",
+        "referenceDelta": 0,
+        "workSegmentDelta": 1
+      }
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V5",
+      "physicalReferenceCount": 812,
+      "workSegmentCount": 1341,
+      "status": "HISTORICAL_VALID (superseded_by_v6)",
+      "changeReason": {
+        "topic": "42.7",
+        "pages": [
+          865,
+          866
+        ],
+        "recoveredReferences": [
+          "27 SHAKESPEARE: Hamlet, Troilus, Othello, King Lear, Cymbeline",
+          "50 MARX: Capital, 241a-d"
+        ],
+        "ocrFailure": "Shakespeare Vol. 27 collapsed into Cervantes Vol. 29; Karl Marx Vol. 50 collapsed with Hegel Vol. 46 across page boundary 865 -> 866",
+        "changeType": "two-physical-references-recovered-by-visual-audit",
+        "referenceDelta": 2,
+        "workSegmentDelta": 0
+      }
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V6",
+      "physicalReferenceCount": 812,
+      "workSegmentCount": 1340,
+      "referenceDelta": 0,
+      "workSegmentDelta": -1,
+      "status": "HISTORICAL_VALID (superseded_by_v7)",
+      "description": "Baseline V6 gerado após auditoria física e visual de 42.8 (p. 866). Confirmadas 38 referências físicas (referenceDelta=0). Retificada sobre-segmentação OCR em Eurípides (4->2) e unificado desmembramento de Efésios e II Tessalonicenses no NT (7->8), resultando em delta líquido de -1 workSegment (1341 -> 1340)."
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V7",
+      "physicalReferenceCount": 813,
+      "workSegmentCount": 1340,
+      "referenceDelta": 1,
+      "workSegmentDelta": 0,
+      "status": "HISTORICAL_VALID (superseded_by_v8)",
+      "description": "Baseline V7 gerado após auditoria física e visual de 42.8a (pp. 866-867). Desmembrada a entrada física #20 de Jean-Jacques Rousseau fundida indevidamente em Montesquieu (Vol. 38) no staging, elevando o censo físico de referências em +1 (812 -> 813). O censo de workSegments permaneceu estável em 1.340 (delta=0) pela compensação exata entre Montesquieu/Rousseau (+1), Novo Testamento (+1) e Aristófanes (-2)."
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V8",
+      "physicalReferenceCount": 814,
+      "workSegmentCount": 1350,
+      "referenceDelta": 1,
+      "workSegmentDelta": 10,
+      "status": "HISTORICAL_VALID (superseded_by_v9)",
+      "description": "Baseline V8 gerado após auditoria física e visual de 42.8b (pp. 867-868). Recuperada a entrada física #01 do Antigo Testamento ('OLD TESTAMEN r :') omitida no staging preliminar por corrupção de OCR no cabeçalho do autor. A inclusão física aumentou o censo de referências em +1 (813 -> 814) e o censo de workSegments em +10 (1.340 -> 1.350, correspondentes aos 10 livros bíblicos citados em 42.8b-01)."
+    },
+    {
+      "baseline": "STAGING_BASELINE_JUSTICE_1952_V9",
+      "physicalReferenceCount": 814,
+      "workSegmentCount": 1351,
+      "referenceDelta": 0,
+      "workSegmentDelta": 1,
+      "status": "ACTIVE_CURRENT_STATE",
+      "description": "Baseline V9 gerado após auditoria física e visual de 42.8d (pp. 868-869). Confirmadas 18 referências físicas impressas (referenceDelta=0). Desmembrada a fusão de Provérbios e Jeremias na entrada física #01 do Antigo Testamento, elevando o censo de workSegments em +1 (1.350 -> 1.351)."
+    }
+  ],
+  "topico42_6Reconciliacao": {
+    "topicoId": "topic:justica:6",
+    "topicoSlug": "topico-42-6",
+    "codigo": "6",
+    "nomeEn": "Justice and liberty: the theory of human rights",
+    "nomePt": "Justiça e liberdade: a teoria dos direitos humanos",
+    "syntopiconPaginas": [
+      863
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 28,
+      "workSegments": 42,
+      "autoresOuFontesDistintos": 27,
+      "obrasDistintas": 42,
+      "gbwwVolumesDistintos": 22,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "euripides4Pecas": "Eurípides possui 4 peças na entrada #03 (Suppliants, Bacchantes, Phoenician Maidens, Orestes), elevando os segmentos de 41 para 42",
+      "tacito": "Entrada #08 corrigida de Tucídides para Cornelius Tacitus (GBWW Vol. 15, Histories, BK iv, 271b)",
+      "documentosEUA": "Declaration of Independence, Constitution of the U.S. e The Federalist com entidades próprias preservadas"
+    },
+    "status": "verified"
+  },
+  "topico42_6aReconciliacao": {
+    "topicoId": "topic:justica:6a",
+    "topicoSlug": "topico-42-6a",
+    "codigo": "6a",
+    "nomeEn": "The relation of natural rights to natural law and natural justice",
+    "nomePt": "A relação dos direitos naturais com a lei natural e a justiça natural",
+    "syntopiconPaginas": [
+      863
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 20,
+      "workSegments": 21,
+      "autoresOuFontesDistintos": 19,
+      "obrasDistintas": 20,
+      "gbwwVolumesDistintos": 18,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "kant2Obras": "Kant (#17) contém 2 obras distintas coligidas: Intro. Metaphysic of Morals e Science of Right, totalizando 21 segmentos no tópico",
+      "aquinas2Volumes": "Aquinas coligido em dois volumes distintos da GBWW: Vol. 19 (ref #05) e Vol. 20 (ref #06), ambos apontando para Summa Theologica",
+      "declaracaoIndependencia": "Declaration of Independence (#18) preservada como entidade institucional soberana (Vol. 43)"
+    },
+    "status": "verified"
+  },
+  "topico42_6bReconciliacao": {
+    "topicoId": "topic:justica:6b",
+    "topicoSlug": "topico-42-6b",
+    "codigo": "6b",
+    "nomeEn": "The relation between natural and positive rights, innate and acquired rights, private and public rights: their correlative duties",
+    "nomePt": "A relação entre direitos naturais e positivos, direitos inatos e adquiridos, direitos privados e públicos: seus deveres correlativos",
+    "syntopiconPaginas": [
+      863,
+      864
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 21,
+      "workSegments": 30,
+      "autoresOuFontesDistintos": 20,
+      "obrasDistintas": 30,
+      "gbwwVolumesDistintos": 18,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "recuperacaoHobbes": "Entrada de Thomas Hobbes (#09) recuperada na página 864, Coluna 1, corrompida no OCR como '23 HOBBTS Lm0//w'.",
+      "obraReiLear": "Materializada entidade canônica obra-rei-lear-shakespeare.md (work:king-lear-shakespeare, GBWW Vol. 27).",
+      "reutilizacaoEntidades": "Reutilizadas com precisão 67 entidades existentes (18 volumes, 20 autores/fontes e 29 obras)."
+    },
+    "status": "verified"
+  },
+  "topico42_6cReconciliacao": {
+    "topicoId": "topic:justica:6c",
+    "topicoSlug": "topico-42-6c",
+    "codigo": "6c",
+    "nomeEn": "The inalienability of natural rights: their violation by tyranny and despotism",
+    "nomePt": "A inalienabilidade dos direitos naturais: sua violação pela tirania e pelo despotismo",
+    "syntopiconPaginas": [
+      864
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 15,
+      "workSegments": 17,
+      "autoresOuFontesDistintos": 15,
+      "obrasDistintas": 17,
+      "gbwwVolumesDistintos": 11,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "recuperacaoLockeToleration": "Segmento de Locke 'Toleration, 20d-21a' recuperado, criando obra-carta-sobre-a-tolerancia-locke.md e elevando os segmentos de 16 para 17.",
+      "tacito": "Entrada #01 corrigida de Tucídides para Cornelius Tacitus (author:tacitus, Histories, GBWW Vol. 15).",
+      "documentosEUA": "Entidades institucionais de Vol. 43 rigorosamente preservadas: Declaração de Independência (#10), Constituição (#11) e O Federalista (#12)."
+    },
+    "status": "verified"
+  },
+  "topico42_6dReconciliacao": {
+    "topicoId": "topic:justica:6d",
+    "topicoSlug": "topico-42-6d",
+    "codigo": "6d",
+    "nomeEn": "Justice as the basis for the distinction between liberty and license",
+    "nomePt": "A justiça como base da distinção entre liberdade e licença",
+    "syntopiconPaginas": [
+      864
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 15,
+      "workSegments": 18,
+      "autoresOuFontesDistintos": 15,
+      "obrasDistintas": 18,
+      "gbwwVolumesDistintos": 14,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "tituloCanonico": "Retificada preposição do cabeçalho impresso: 'Justice as the basis for the distinction between liberty and license' (original utiliza 'for', não 'of').",
+      "novasObras": "Criadas 4 obras canônicas ausentes no vault: Anais de Tácito, Medida por Medida de Shakespeare, Sonetos de Milton e Areopagítica de Milton.",
+      "conferenciaRousseau": "Localizador 32^a-b confirmado e corrigido para 324a-b (Dedicatória à República de Genebra no Discurso sobre a Origem da Desigualdade).",
+      "baseline": "Contagem física (15 refs, 18 segments) coincidiu exatamente com a hipótese estrutural do staging. Baseline mantido em STAGING_BASELINE_JUSTICE_1952_V4."
+    },
+    "status": "verified"
+  },
+  "topico42_6eReconciliacao": {
+    "topicoId": "topic:justica:6e",
+    "topicoSlug": "topico-42-6e",
+    "codigo": "6e",
+    "nomeEn": "Justice and natural rights as the source of civil liberty",
+    "nomePt": "Justiça e direitos naturais como fonte da liberdade civil",
+    "syntopiconPaginas": [
+      864,
+      865
+    ],
+    "gbwwVolume": 2,
+    "contagensDocumentais": {
+      "referenciasFisicas": 11,
+      "workSegments": 14,
+      "autoresOuFontesDistintos": 11,
+      "obrasDistintas": 14,
+      "gbwwVolumesDistintos": 10,
+      "fontesNaoNumeradasDistintas": 0,
+      "passagensVerificadas": 0
+    },
+    "decisoesFilologicas": {
+      "tituloCanonico": "Confirmado verbatim 'Justice and natural rights as the source of civil liberty' tanto no Sumário (p. 857) quanto no cabeçalho impresso (p. 864).",
+      "transicaoPagina": "Tópico inicia na p. 864, Coluna 2 (Tomás de Aquino e Hobbes) e continua no topo da Coluna 1 da p. 865 até Freud, findando antes do cabeçalho do Tópico 7.",
+      "reutilizacaoEntidades": "Todas as 14 obras citadas e os 11 autores/fontes já existiam no vault; 0 novas obras criadas, 0 duplicatas semânticas.",
+      "baseline": "Contagem física (11 refs, 14 segments) coincidiu perfeitamente com o staging. Baseline mantido em STAGING_BASELINE_JUSTICE_1952_V4."
+    },
+    "status": "verified"
+  },
+  "topico42_7Reconciliacao": {
+    "topicoId": "topic:justica:7",
+    "topicCode": "42.7",
+    "nomeEn": "Domestic justice: the problems of right and duty in the family",
+    "nomePtBr": "Justiça doméstica: os problemas de direito e dever na família",
+    "syntopiconPages": [
+      865,
+      866
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 36,
+    "workSegments": 73,
+    "autores": 34,
+    "obras": 72,
+    "gbwwVolumes": 28,
+    "fontesNaoNumeradas": 3,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "AMB-JUST-042-7-01: Separação de William Shakespeare Vol. 27 de Cervantes Vol. 29",
+      "AMB-JUST-042-7-02: Separação de Karl Marx Vol. 50 de Hegel Vol. 46 na quebra de página 865 -> 866"
+    ]
+  },
+  "dataAtualizacao": "2026-09-22",
+  "topico42_8Reconciliacao": {
+    "topicoId": "topic:justica:8",
+    "topicCode": "42.8",
+    "nomeEn": "Economic justice: justice in production, distribution, and exchange",
+    "nomePtBr": "Justiça econômica: justiça na produção, distribuição e troca",
+    "syntopiconPages": [
+      866
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 38,
+    "workSegments": 71,
+    "autores": 37,
+    "obras": 70,
+    "gbwwVolumes": 30,
+    "fontesNaoNumeradas": 3,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "AMB-JUST-042-8-01: Correção de atribuição de Montaigne (GBWW Vol. 25, Essays) erroneamente lido como Tucídides",
+      "AMB-JUST-042-8-02: Eliminação de 2 segmentos espúrios em Eurípides decorrentes de ruído OCR em Helen",
+      "AMB-JUST-042-8-03: Reconhecimento e atribuição de Gibbon (Vols 40 e 41) e Boswell (Vol 44) pontuados com ponto final",
+      "AMB-JUST-042-8-04: Desmembramento canônico de Efésios e II Tessalonicenses no Novo Testamento (7 para 8 obras)"
+    ]
+  },
+  "topico42_8aReconciliacao": {
+    "topicoId": "topic:justica:8a",
+    "topicCode": "42.8a",
+    "nomeEn": "Private and public property: the just distribution of economic goods",
+    "nomePtBr": "Propriedade privada e pública: a distribuição justa dos bens econômicos",
+    "syntopiconPages": [
+      866,
+      867
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 34,
+    "workSegments": 61,
+    "autores": 32,
+    "obras": 59,
+    "gbwwVolumes": 26,
+    "fontesNaoNumeradas": 2,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "AMB-JUST-042-8a-01: Desmembramento da entrada 20 de Rousseau (Vol. 38) fundida em Montesquieu (Vol. 38) no staging",
+      "AMB-JUST-042-8a-02: Correção de atribuição de Tácito (GBWW Vol. 15) erroneamente rotulado como Tucídides",
+      "AMB-JUST-042-8a-03: Retificação de sobre-segmentação em Aristófanes (4 para 2 obras: Ecclesiazusae e Plutus)",
+      "AMB-JUST-042-8a-04: Desmembramento canônico de 6 livros no Novo Testamento (5 para 6 segmentos)",
+      "AMB-JUST-042-8a-05: Resolução de autores com caracteres espúrios no OCR (Swift e Tolstói)"
+    ]
+  },
+  "topico42_8bReconciliacao": {
+    "topicoId": "topic:justica:8b",
+    "topicCode": "42.8b",
+    "nomeEn": "Fair wages and prices: the just exchange of goods and services",
+    "nomePtBr": "Salários e preços justos: a troca justa de bens e serviços",
+    "syntopiconPages": [
+      867,
+      868
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 26,
+    "workSegments": 43,
+    "autores": 26,
+    "obras": 43,
+    "gbwwVolumes": 20,
+    "fontesNaoNumeradas": 3,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "AMB-JUST-042-8b-01: Omissão documental da referência 01 do Antigo Testamento por erro de OCR ('OLD TESTAMEN r :')",
+      "AMB-JUST-042-8b-02: Normalização de hífen tipográfico em Heródoto (author:herodotus)",
+      "AMB-JUST-042-8b-03: Pontuação atípica (ponto final) em Swift e Melville resolvida para autores canônicos",
+      "AMB-JUST-042-8b-04: Retificação de OCR 'Decline and Pall' para work:decline-and-fall de Gibbon"
+    ]
+  },
+  "topico42_8cReconciliacao": {
+    "topicoId": "topic:justica:8c",
+    "topicCode": "42.8c",
+    "nomeEn": "Justice in the organization of production",
+    "nomePtBr": "Justiça na organização da produção",
+    "syntopiconPages": [
+      868
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 2,
+    "workSegments": 2,
+    "autores": 2,
+    "obras": 2,
+    "gbwwVolumes": 1,
+    "fontesNaoNumeradas": 0,
+    "passagens": 0,
+    "duplicacaoHistoricaEvitada": "Confirmado que as 18 referências do subgrafo 8c(1) residem estritamente em seu subnó e não pertencem ao nó pai 8c, eliminando a duplicação histórica legada (20 para 2 referências diretas)."
+  },
+  "topico42_8c_2Reconciliacao": {
+    "topicoId": "topic:justica:8c-2",
+    "topicCode": "42.8c(2)",
+    "nomeEn": "Profit and unearned increment",
+    "nomePtBr": "Lucro e incremento não auferido",
+    "syntopiconPages": [
+      868
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 4,
+    "workSegments": 4,
+    "autores": 4,
+    "obras": 4,
+    "gbwwVolumes": 4,
+    "fontesNaoNumeradas": 0,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "Retificação da quebra de linha tipográfica OCR de Wealth of Nations (Adam Smith)",
+      "Correção de erro OCR 'PART in' para 'PART iii' em Philosophy of Right (Hegel)",
+      "Correção de OCR 'lOOa-lOlb' para '100a-101b' e restauração da precedência de 'Capital' no locatorRaw de Karl Marx"
+    ]
+  },
+  "topico42_8dReconciliacao": {
+    "topicoId": "topic:justica:8d",
+    "topicCode": "42.8d",
+    "nomeEn": "Justice and the use of money: usury and interest rates",
+    "nomePtBr": "A justiça e o uso do dinheiro: usura e taxas de juros",
+    "syntopiconPages": [
+      868,
+      869
+    ],
+    "status": "fully_verified",
+    "referenciasFisicas": 18,
+    "workSegments": 29,
+    "autores": 17,
+    "obras": 28,
+    "gbwwVolumes": 17,
+    "fontesNaoNumeradas": 1,
+    "passagens": 0,
+    "anomaliasResolvidas": [
+      "Desmembramento de Provérbios e Jeremias na entrada 01 do Antigo Testamento, recuperando +1 workSegment (7 -> 8) obscurecido por OCR 28:87 Jeremiah",
+      "Correção do volume de Tácito de 6 (erro de leitura de OCR) para o volume canônico GBWW 15",
+      "Retificação filológica do localizador de Tomás de Aquino de PART MI para PART I-II",
+      "Correção da quebra de linha de Pascal de 55a*57a para 55a-57a",
+      "Restauração do título Capital na posição inicial do localizador de Karl Marx"
+    ]
+  }
+}

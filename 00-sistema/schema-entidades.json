@@ -1,0 +1,740 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SyntopiconEntitySchemas",
+  "description": "Contrato de Schemas JSON para as entidades do ecossistema Syntopicon (Vault Obsidian e Aplicação TypeScript)",
+  "version": "2.0.0",
+  "$defs": {
+    "ProvenanceEnum": {
+      "type": "string",
+      "enum": [
+        "original-corpus",
+        "derived-structure",
+        "external-corpus",
+        "contemporary-source"
+      ]
+    },
+    "EpistemologyEnum": {
+      "type": "string",
+      "enum": [
+        "canonical",
+        "source",
+        "editorial",
+        "contemporary-extension",
+        "personal"
+      ]
+    },
+    "VerificationEnum": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "needs_verification",
+        "unverified",
+        "ocr_error"
+      ]
+    },
+    "GreatIdea": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "canonicalName",
+        "displayNamePtBr",
+        "numeroCanonico",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^idea:[a-z0-9_-]+$"
+        },
+        "legacyIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^gi-[0-9]{2}-[a-z0-9-]+$"
+        },
+        "canonicalName": {
+          "type": "string"
+        },
+        "displayNamePtBr": {
+          "type": "string"
+        },
+        "numeroCanonico": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 102
+        },
+        "gbwwVolume": {
+          "type": "integer"
+        },
+        "syntopiconVolume": {
+          "type": "integer",
+          "enum": [
+            1,
+            2
+          ]
+        },
+        "pageStart": {
+          "type": "integer"
+        },
+        "pageEnd": {
+          "type": "integer"
+        },
+        "totalMainTopics": {
+          "type": "integer"
+        },
+        "totalDescendantTopics": {
+          "type": "integer"
+        },
+        "totalNodes": {
+          "type": "integer"
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedIdeas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Topic": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "ideaId",
+        "topicCode",
+        "canonicalName",
+        "displayNamePtBr",
+        "level",
+        "order",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^topic:[a-z0-9_:-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^topico-[0-9]{2}-[a-z0-9()-]+$"
+        },
+        "ideaId": {
+          "type": "string",
+          "pattern": "^idea:[a-z0-9_-]+$"
+        },
+        "parentTopicId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rootTopicId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "topicCode": {
+          "type": "string"
+        },
+        "canonicalName": {
+          "type": "string"
+        },
+        "displayNamePtBr": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    },
+    "LocatorItem": {
+      "type": "object",
+      "required": [
+        "locatorRaw"
+      ],
+      "properties": {
+        "locatorRaw": {
+          "type": "string"
+        },
+        "pageStart": {
+          "type": [
+            "integer",
+            "string",
+            "null"
+          ]
+        },
+        "pageEnd": {
+          "type": [
+            "integer",
+            "string",
+            "null"
+          ]
+        },
+        "columnStart": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            null
+          ]
+        },
+        "columnEnd": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "a",
+            "b",
+            "c",
+            "d",
+            null
+          ]
+        },
+        "subLocator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isEmphasis": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WorkSegment": {
+      "type": "object",
+      "required": [
+        "workId",
+        "canonicalWorkTitle",
+        "locatorRaw"
+      ],
+      "properties": {
+        "workId": {
+          "type": "string"
+        },
+        "canonicalWorkTitle": {
+          "type": "string"
+        },
+        "displayWorkTitlePtBr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gbwwVolume": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "locatorRaw": {
+          "type": "string"
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LocatorItem"
+          }
+        }
+      }
+    },
+    "SyntopiconReference": {
+      "type": "object",
+      "required": [
+        "id",
+        "topicId",
+        "ideaId",
+        "authorId",
+        "locatorRaw",
+        "syntopiconPage",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ref:[a-z0-9_:-]+$"
+        },
+        "topicId": {
+          "type": "string"
+        },
+        "ideaId": {
+          "type": "string"
+        },
+        "authorId": {
+          "type": "string"
+        },
+        "authorCanonicalName": {
+          "type": "string"
+        },
+        "workId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "workIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "workSegments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/WorkSegment"
+          }
+        },
+        "editionId": {
+          "type": "string"
+        },
+        "gbwwVolume": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "syntopiconPage": {
+          "type": "integer"
+        },
+        "locatorRaw": {
+          "type": "string"
+        },
+        "passageIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "orderInTopic": {
+          "type": "integer"
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        },
+        "warningResolution": {
+          "type": "string",
+          "enum": [
+            "none",
+            "resolved-by-visual-audit",
+            "pending-collation"
+          ],
+          "description": "Estado do ciclo de vida de resolução de avisos de fricção documental"
+        },
+        "warningsResolved": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Lista de avisos e fricções da esteira de staging resolvidos pela auditoria visual"
+        },
+        "warningsOpen": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Avisos que ainda requerem investigação documental adicional"
+        }
+      }
+    },
+    "Passage": {
+      "type": "object",
+      "required": [
+        "id",
+        "workId",
+        "authorId",
+        "textOriginal",
+        "languageOriginal",
+        "editionSource",
+        "locatorExact",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^passage:[a-z0-9_:-]+$"
+        },
+        "referenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "workId": {
+          "type": "string"
+        },
+        "authorId": {
+          "type": "string"
+        },
+        "textOriginal": {
+          "type": "string"
+        },
+        "languageOriginal": {
+          "type": "string"
+        },
+        "textTranslationPtBr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "translator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editionSource": {
+          "type": "string"
+        },
+        "gbwwVolume": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "locatorExact": {
+          "type": "string"
+        },
+        "verificationEvidence": {
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    },
+    "Author": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "canonicalName",
+        "displayNamePtBr",
+        "period",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^author:[a-z0-9_-]+$"
+        },
+        "legacyIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^autor-[a-z0-9-]+$"
+        },
+        "canonicalName": {
+          "type": "string"
+        },
+        "displayNamePtBr": {
+          "type": "string"
+        },
+        "period": {
+          "type": "string"
+        },
+        "tradition": {
+          "type": "string"
+        },
+        "isGbwwCanonical": {
+          "type": "boolean"
+        },
+        "gbwwVolumes": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    },
+    "Work": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "canonicalTitle",
+        "displayTitlePtBr",
+        "authorIds",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^work:[a-z0-9_-]+$"
+        },
+        "legacyIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^obra-[a-z0-9-]+$"
+        },
+        "canonicalTitle": {
+          "type": "string"
+        },
+        "displayTitlePtBr": {
+          "type": "string"
+        },
+        "authorIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "originalLanguage": {
+          "type": "string"
+        },
+        "gbwwVolume": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    },
+    "Volume": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "volumeNumber",
+        "canonicalTitle",
+        "authors",
+        "publicationYear",
+        "series",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^vol:[0-9]{1,2}$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^vol-[0-9]{2}$"
+        },
+        "volumeNumber": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 54
+        },
+        "canonicalTitle": {
+          "type": "string"
+        },
+        "displayTitlePtBr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "authorIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "publicationYear": {
+          "type": "integer"
+        },
+        "series": {
+          "type": "string"
+        },
+        "editor": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "shortTitle",
+        "type",
+        "year",
+        "provenance",
+        "epistemology",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^source:[a-z0-9_-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^fonte-[a-z0-9-]+$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "shortTitle": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "book",
+            "reference-index",
+            "dataset",
+            "pdf",
+            "manuscript",
+            "catalog",
+            "legal-document"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "filePath": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checksum": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceEnum"
+        },
+        "epistemology": {
+          "$ref": "#/$defs/EpistemologyEnum"
+        },
+        "verification": {
+          "$ref": "#/$defs/VerificationEnum"
+        }
+      }
+    }
+  }
+}
