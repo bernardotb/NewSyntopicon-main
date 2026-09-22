@@ -94,7 +94,9 @@ SORT numero ASC
 ```
 """
 
-with open("/home/user/vault-syntopicon/07-mocs/moc-102-ideias.md", "w") as f:
+import os
+VAULT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+with open(os.path.join(VAULT, "08-indices/moc-102-ideias.md"), "w") as f:
     f.write(content)
 
 print("Created moc-102-ideias.md")
