@@ -1,0 +1,344 @@
+{
+  "timestamp": "2026-09-22T16:44:06.172928+00:00",
+  "suite": "Arena Syntopicon Subgraph Fixtures & Data Integrity Audit",
+  "status": "PASSED",
+  "invariantesArquiteturais": {
+    "invariante1_identidadeAutoritativa": "PASSED (id == 'idea:justica')",
+    "invariante2_paridadeCamposNumericos": "PASSED (numeroCanonico == numero-canonico == numero == 42)",
+    "invariante3_distincaoLayerVersusCamadas": "PASSED (layer: canonical; 5 camadas catalogadas)",
+    "invariante4_separacaoVerificacao": "PASSED (verification: verified; corpus-ingestion-verification: needs_verification)"
+  },
+  "fixtureRegressaoGoldenCase8c1": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8c-1')",
+    "proporcaoOntologica": "18_refs / 17_autores / 20_obras / 16_volumes / 0_passagens",
+    "referencias": 18,
+    "autoresAlcancados": 17,
+    "obrasAlcancadas": 20,
+    "volumesAlcancados": 16,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoLote1": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId in {1a, 1b, 1c, 1d, 1e, 1f})",
+    "referenciasPorSubtopico": {
+      "1a": 18,
+      "1b": 8,
+      "1c": 11,
+      "1d": 8,
+      "1e": 3,
+      "1f": 5
+    },
+    "totalReferencias": 53,
+    "totalSegmentosObra": 82,
+    "totalAutoresAlcancados": 26,
+    "totalObrasAlcancadas": 51,
+    "totalVolumesAlcancados": 28,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_7": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:7')",
+    "proporcaoOntologica": "36_refs / 34_autores_fontes / 72_obras / 28_volumes_gbww / 3_fontes_nao_num / 73_segmentos / 0_passagens",
+    "referencias": 36,
+    "totalSegmentosObra": 73,
+    "autoresOuFontesAlcancados": 34,
+    "obrasAlcancadas": 72,
+    "gbwwVolumesAlcancados": 28,
+    "fontesNaoNumeradasAlcancadas": 3,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8')",
+    "proporcaoOntologica": "38_refs / 37_autores_fontes / 70_obras / 30_volumes_gbww / 3_fontes_nao_num / 71_segmentos / 0_passagens",
+    "referencias": 38,
+    "totalSegmentosObra": 71,
+    "autoresOuFontesAlcancados": 37,
+    "obrasAlcancadas": 70,
+    "gbwwVolumesAlcancados": 30,
+    "fontesNaoNumeradasAlcancadas": 3,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8a": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8a')",
+    "proporcaoOntologica": "34_refs / 32_autores_fontes / 59_obras / 26_volumes_gbww / 2_fontes_nao_num / 61_segmentos / 0_passagens",
+    "referencias": 34,
+    "totalSegmentosObra": 61,
+    "autoresOuFontesAlcancados": 32,
+    "obrasAlcancadas": 59,
+    "gbwwVolumesAlcancados": 26,
+    "fontesNaoNumeradasAlcancadas": 2,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8b": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8b')",
+    "proporcaoOntologica": "26_refs / 26_autores_fontes / 43_obras / 20_volumes_gbww / 3_fontes_nao_num / 43_segmentos / 0_passagens",
+    "referencias": 26,
+    "totalSegmentosObra": 43,
+    "autoresOuFontesAlcancados": 26,
+    "obrasAlcancadas": 43,
+    "gbwwVolumesAlcancados": 20,
+    "fontesNaoNumeradasAlcancadas": 3,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8c": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8c', DIRECT_NODE_ONLY)",
+    "proporcaoOntologica": "2_refs / 2_autores_fontes / 2_obras / 1_volume_gbww / 0_fontes_nao_num / 2_segmentos / 0_passagens",
+    "referencias": 2,
+    "totalSegmentosObra": 2,
+    "autoresOuFontesAlcancados": 2,
+    "obrasAlcancadas": 2,
+    "gbwwVolumesAlcancados": 1,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8c_2": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8c-2', DIRECT_NODE_ONLY)",
+    "proporcaoOntologica": "4_refs / 4_autores_fontes / 4_obras / 4_volumes_gbww / 0_fontes_nao_num / 4_segmentos / 0_passagens",
+    "referencias": 4,
+    "totalSegmentosObra": 4,
+    "autoresOuFontesAlcancados": 4,
+    "obrasAlcancadas": 4,
+    "gbwwVolumesAlcancados": 4,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_8d": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:8d', DIRECT_NODE_ONLY)",
+    "proporcaoOntologica": "18_refs / 17_autores_fontes / 28_obras / 17_volumes_gbww / 1_fonte_nao_num / 29_segmentos / 0_passagens",
+    "referencias": 18,
+    "totalSegmentosObra": 29,
+    "autoresOuFontesAlcancados": 17,
+    "obrasAlcancadas": 28,
+    "gbwwVolumesAlcancados": 17,
+    "fontesNaoNumeradasAlcancadas": 1,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "protecoesIntegridadeDocumental": {
+    "protecao1_unicidadeCompostaDocumental": "PASSED (441 chaves únicas validadas)",
+    "protecao2_conservacaoLocatorRawVerbatim": "PASSED (100% das referências e segmentos preservam texto original)",
+    "protecao3_fronteiraTopicosCasoMontesquieu": "PASSED (Montesquieu estritamente isolado fora de 8c-1)",
+    "protecao4_integridadeReferencialCompleta": {
+      "status": "PASSED",
+      "danglingAuthors": 0,
+      "danglingWorks": 0,
+      "danglingVolumes": 0,
+      "danglingTopics": 0,
+      "danglingPassages": 0,
+      "danglingSources": 0,
+      "totalIdentidadesVerificadas": 381
+    },
+    "protecao5_integridadeWikilinks": {
+      "status": "PASSED",
+      "brokenWikilinks": 0,
+      "duplicatasSemanticasAutores": 0,
+      "duplicatasSemanticasObras": 0,
+      "duplicatasSemanticasVolumes": 0,
+      "totalWikilinksAuditados": 5762,
+      "escopoStubsPermitidos": "101 Grandes Ideias futuras (gi-01 a gi-102, exceto gi-42)"
+    }
+  },
+  "resumoMetricas": {
+    "grandesIdeias": 1,
+    "topicos": 41,
+    "referencias": 441,
+    "passagens": 0,
+    "obras": 187,
+    "autores": 54,
+    "volumes": 43,
+    "indices": 2,
+    "totalEntidadesMaterializadas": 767
+  },
+  "validacaoSchemas": {
+    "GreatIdea": {
+      "status": "PASSED",
+      "entidadesValidadas": 1,
+      "erros": 0
+    },
+    "Topic": {
+      "status": "PASSED",
+      "entidadesValidadas": 41,
+      "erros": 0
+    },
+    "SyntopiconReference": {
+      "status": "PASSED",
+      "entidadesValidadas": 441,
+      "erros": 0
+    },
+    "Author": {
+      "status": "PASSED",
+      "entidadesValidadas": 54,
+      "erros": 0
+    },
+    "Work": {
+      "status": "PASSED",
+      "entidadesValidadas": 187,
+      "erros": 0
+    },
+    "Volume": {
+      "status": "PASSED",
+      "entidadesValidadas": 43,
+      "erros": 0
+    }
+  },
+  "auditoriaHierarquiaJustica": {
+    "ramosPrincipaisEsperados": 11,
+    "ramosPrincipaisObtidos": 11,
+    "descendentesEsperados": 30,
+    "descendentesObtidos": 30,
+    "totalNosEsperados": 41,
+    "totalNosObtidos": 41,
+    "conformidadeOutline1952": "100%_conforme_pp_857_858"
+  },
+  "integridadeRelacional": {
+    "linksOutlineEmGrandeIdeia": "41/41 válidos",
+    "linksReferenciaTopico": "441/441 válidos",
+    "linksReferenciaObras": "100% válidos",
+    "linksReferenciaAutores": "100% válidos",
+    "linksObrasAutores": "100% válidos",
+    "linksObrasVolumes": "100% válidos",
+    "triadeOrtogonalPresenteEmTodas": true
+  },
+  "fixtureRegressaoTopico42_2": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:2')",
+    "proporcaoOntologica": "28_refs / 28_autores / 58_obras / 22_volumes / 58_segmentos / 0_passagens",
+    "referencias": 28,
+    "totalSegmentosObra": 58,
+    "autoresAlcancados": 28,
+    "obrasAlcancadas": 58,
+    "volumesAlcancados": 22,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_3": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:3')",
+    "proporcaoOntologica": "23_refs / 21_autores / 33_obras / 22_volumes / 34_segmentos / 0_passagens",
+    "referencias": 23,
+    "totalSegmentosObra": 34,
+    "autoresAlcancados": 21,
+    "obrasAlcancadas": 33,
+    "volumesAlcancados": 22,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_4": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:4')",
+    "proporcaoOntologica": "25_refs / 24_autores / 53_obras / 18_volumes / 53_segmentos / 0_passagens",
+    "referencias": 25,
+    "totalSegmentosObra": 53,
+    "autoresAlcancados": 24,
+    "obrasAlcancadas": 53,
+    "volumesAlcancados": 18,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_5": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:5')",
+    "proporcaoOntologica": "26_refs / 24_autores_fontes / 32_obras / 21_volumes_gbww / 0_fontes_nao_num / 33_segmentos / 0_passagens",
+    "referencias": 26,
+    "totalSegmentosObra": 33,
+    "autoresOuFontesAlcancados": 24,
+    "obrasAlcancadas": 32,
+    "gbwwVolumesAlcancados": 21,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6')",
+    "proporcaoOntologica": "28_refs / 27_autores_fontes / 42_obras / 22_volumes_gbww / 0_fontes_nao_num / 42_segmentos / 0_passagens",
+    "referencias": 28,
+    "totalSegmentosObra": 42,
+    "autoresOuFontesAlcancados": 27,
+    "obrasAlcancadas": 42,
+    "gbwwVolumesAlcancados": 22,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6a": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6a')",
+    "proporcaoOntologica": "20_refs / 19_autores_fontes / 20_obras / 18_volumes_gbww / 0_fontes_nao_num / 21_segmentos / 0_passagens",
+    "referencias": 20,
+    "totalSegmentosObra": 21,
+    "autoresOuFontesAlcancados": 19,
+    "obrasAlcancadas": 20,
+    "gbwwVolumesAlcancados": 18,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6b": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6b')",
+    "proporcaoOntologica": "21_refs / 20_autores_fontes / 30_obras / 18_volumes_gbww / 0_fontes_nao_num / 30_segmentos / 0_passagens",
+    "referencias": 21,
+    "totalSegmentosObra": 30,
+    "autoresOuFontesAlcancados": 20,
+    "obrasAlcancadas": 30,
+    "gbwwVolumesAlcancados": 18,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6c": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6c')",
+    "proporcaoOntologica": "15_refs / 15_autores_fontes / 17_obras / 11_volumes_gbww / 0_fontes_nao_num / 17_segmentos / 0_passagens",
+    "referencias": 15,
+    "totalSegmentosObra": 17,
+    "autoresOuFontesAlcancados": 15,
+    "obrasAlcancadas": 17,
+    "gbwwVolumesAlcancados": 11,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6d": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6d')",
+    "proporcaoOntologica": "15_refs / 15_autores_fontes / 18_obras / 14_volumes_gbww / 0_fontes_nao_num / 18_segmentos / 0_passagens",
+    "referencias": 15,
+    "totalSegmentosObra": 18,
+    "autoresOuFontesAlcancados": 15,
+    "obrasAlcancadas": 18,
+    "gbwwVolumesAlcancados": 14,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  },
+  "fixtureRegressaoTopico42_6e": {
+    "status": "PASSED",
+    "tipoMedicao": "subgrafo_direcionado (topicId == 'topic:justica:6e')",
+    "proporcaoOntologica": "11_refs / 11_autores_fontes / 14_obras / 10_volumes_gbww / 0_fontes_nao_num / 14_segmentos / 0_passagens",
+    "referencias": 11,
+    "totalSegmentosObra": 14,
+    "autoresOuFontesAlcancados": 11,
+    "obrasAlcancadas": 14,
+    "gbwwVolumesAlcancados": 10,
+    "fontesNaoNumeradasAlcancadas": 0,
+    "passagensAlcancadas": 0,
+    "regraReferenciaVsPassagemCumprida": true
+  }
+}
