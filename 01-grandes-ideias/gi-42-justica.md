@@ -1003,5 +1003,3 @@ SORT numero ASC
 - Reconciliação filológica integral do Golden Case 8c(1) com a página 868 de *Justice.pdf* (18 entradas de citação impressas, 17 entidades autorais, 20 obras, 16 volumes, 0 passagens forjadas);
 - Atualização das consultas Dataview para a hierarquia semântica unificada (`02-topicos/justica/`, `03-referencias/justica/`, `04-passagens/`);
 - Rigor epistemológico na demarcação dos 826 registros (`verification: needs_verification`) e na ausência de *Equality* do corpus de 1952.
-
-> [TESTE-AGENTE] linha adicionada automaticamente para validar edição — será removida em seguida.
