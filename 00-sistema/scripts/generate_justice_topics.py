@@ -331,7 +331,8 @@ topics = [
     }
 ]
 
-out_dir = "/home/user/vault-syntopicon/02-topicos/justica"
+VAULT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+out_dir = os.path.join(VAULT, "02-topicos/justica")
 os.makedirs(out_dir, exist_ok=True)
 
 # Build linear prev/next mapping

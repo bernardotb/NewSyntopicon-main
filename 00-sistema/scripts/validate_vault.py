@@ -1,7 +1,7 @@
 import os, glob, yaml, json, jsonschema, re, sys
 from datetime import datetime, timezone
 
-VAULT = '/home/user/vault-syntopicon'
+VAULT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 
 with open(os.path.join(VAULT, '00-sistema/schema-entidades.json')) as f:
     schema = json.load(f)
@@ -1094,7 +1094,8 @@ broken_wikilinks = []
 
 for p in all_vault_markdown:
     rel = os.path.relpath(p, VAULT)
-    if 'templates' in rel or 'contrato-de-dados' in rel or 'arena-handoff-codex' in rel:
+    # 'antigas' = arquivo legado (pre-consolidacao) fora do escopo de integridade do grafo
+    if 'templates' in rel or 'contrato-de-dados' in rel or 'arena-handoff-codex' in rel or 'antigas' in rel:
         continue
     with open(p, 'r', encoding='utf-8') as f:
         c = f.read()
