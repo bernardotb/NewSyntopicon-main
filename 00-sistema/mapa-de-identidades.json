@@ -1,0 +1,1416 @@
+{
+  "versao": "2.0.0",
+  "descricao": "Mapa de Resolução e Correspondência de Identidades do Ecossistema Syntopicon",
+  "entidades": {
+    "ideias": [
+      {
+        "id": "idea:justica",
+        "legacyIds": [
+          "idea:042",
+          "idea:justice",
+          "GI-42"
+        ],
+        "numeroCanonico": 42,
+        "canonicalName": "Justice",
+        "displayNamePtBr": "Justiça",
+        "slug": "gi-42-justica",
+        "caminhoVault": "01-grandes-ideias/gi-42-justica.md",
+        "aliases": [
+          "Justiça",
+          "Justice",
+          "GI-42",
+          "Grande Ideia 42"
+        ]
+      }
+    ],
+    "autores": [
+      {
+        "id": "author:aquinas",
+        "legacyIds": [
+          "Autor-Tomas-de-Aquino",
+          "aquinas",
+          "TomasdeAquino"
+        ],
+        "canonicalName": "Thomas Aquinas",
+        "displayNamePtBr": "Tomás de Aquino",
+        "slug": "autor-tomas-de-aquino",
+        "caminhoVault": "06-autores/autor-tomas-de-aquino.md",
+        "gbwwVolumes": [
+          19,
+          20
+        ]
+      },
+      {
+        "id": "author:aristotle",
+        "legacyIds": [
+          "Autor-Aristoteles",
+          "aristotle",
+          "Aristoteles"
+        ],
+        "canonicalName": "Aristotle",
+        "displayNamePtBr": "Aristóteles",
+        "slug": "autor-aristoteles",
+        "caminhoVault": "06-autores/autor-aristoteles.md",
+        "gbwwVolumes": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": "author:augustine",
+        "legacyIds": [
+          "autor-santo-agostinho",
+          "Augustine of Hippo"
+        ],
+        "canonicalName": "Augustine of Hippo",
+        "displayNamePtBr": "Santo Agostinho",
+        "slug": "autor-santo-agostinho",
+        "caminhoVault": "06-autores/autor-santo-agostinho.md",
+        "gbwwVolumes": [
+          18
+        ]
+      },
+      {
+        "id": "author:boswell",
+        "legacyIds": [
+          "Autor-James-Boswell",
+          "boswell",
+          "Boswell"
+        ],
+        "canonicalName": "James Boswell",
+        "displayNamePtBr": "James Boswell",
+        "slug": "autor-james-boswell",
+        "caminhoVault": "06-autores/autor-james-boswell.md",
+        "gbwwVolumes": [
+          44
+        ]
+      },
+      {
+        "id": "author:dostoevsky",
+        "legacyIds": [
+          "Autor-Fiodor-Dostoievski",
+          "dostoevsky",
+          "Dostoievski"
+        ],
+        "canonicalName": "Fyodor Dostoevsky",
+        "displayNamePtBr": "Fiódor Dostoiévski",
+        "slug": "autor-fiodor-dostoievski",
+        "caminhoVault": "06-autores/autor-fiodor-dostoievski.md",
+        "gbwwVolumes": [
+          52
+        ]
+      },
+      {
+        "id": "author:founding-fathers-us",
+        "legacyIds": [
+          "Autor-Constituicao-EUA",
+          "us-constitution"
+        ],
+        "canonicalName": "Constitution of the United States",
+        "displayNamePtBr": "Constituição dos Estados Unidos",
+        "slug": "autor-constituicao-eua",
+        "caminhoVault": "06-autores/autor-constituicao-eua.md",
+        "gbwwVolumes": [
+          43
+        ]
+      },
+      {
+        "id": "author:freud",
+        "legacyIds": [
+          "autor-sigmund-freud",
+          "Sigmund Freud"
+        ],
+        "canonicalName": "Sigmund Freud",
+        "displayNamePtBr": "Sigmund Freud",
+        "slug": "autor-sigmund-freud",
+        "caminhoVault": "06-autores/autor-sigmund-freud.md",
+        "gbwwVolumes": [
+          54
+        ]
+      },
+      {
+        "id": "author:gibbon",
+        "legacyIds": [
+          "Autor-Edward-Gibbon",
+          "gibbon",
+          "Gibbon"
+        ],
+        "canonicalName": "Edward Gibbon",
+        "displayNamePtBr": "Edward Gibbon",
+        "slug": "autor-edward-gibbon",
+        "caminhoVault": "06-autores/autor-edward-gibbon.md",
+        "gbwwVolumes": [
+          40,
+          41
+        ]
+      },
+      {
+        "id": "author:goethe",
+        "legacyIds": [
+          "autor-johann-wolfgang-von-goethe",
+          "Johann Wolfgang von Goethe"
+        ],
+        "canonicalName": "Johann Wolfgang von Goethe",
+        "displayNamePtBr": "Johann Wolfgang von Goethe",
+        "slug": "autor-johann-wolfgang-von-goethe",
+        "caminhoVault": "06-autores/autor-johann-wolfgang-von-goethe.md",
+        "gbwwVolumes": [
+          47
+        ]
+      },
+      {
+        "id": "author:hegel",
+        "legacyIds": [
+          "Autor-GWF-Hegel",
+          "hegel",
+          "Hegel"
+        ],
+        "canonicalName": "Georg Wilhelm Friedrich Hegel",
+        "displayNamePtBr": "G. W. F. Hegel",
+        "slug": "autor-gwf-hegel",
+        "caminhoVault": "06-autores/autor-gwf-hegel.md",
+        "gbwwVolumes": [
+          46
+        ]
+      },
+      {
+        "id": "author:hobbes",
+        "legacyIds": [
+          "autor-thomas-hobbes",
+          "Thomas Hobbes"
+        ],
+        "canonicalName": "Thomas Hobbes",
+        "displayNamePtBr": "Thomas Hobbes",
+        "slug": "autor-thomas-hobbes",
+        "caminhoVault": "06-autores/autor-thomas-hobbes.md",
+        "gbwwVolumes": [
+          23
+        ]
+      },
+      {
+        "id": "author:kant",
+        "legacyIds": [
+          "Autor-Immanuel-Kant",
+          "kant",
+          "Kant"
+        ],
+        "canonicalName": "Immanuel Kant",
+        "displayNamePtBr": "Immanuel Kant",
+        "slug": "autor-immanuel-kant",
+        "caminhoVault": "06-autores/autor-immanuel-kant.md",
+        "gbwwVolumes": [
+          42
+        ]
+      },
+      {
+        "id": "author:locke",
+        "legacyIds": [
+          "autor-john-locke",
+          "John Locke"
+        ],
+        "canonicalName": "John Locke",
+        "displayNamePtBr": "John Locke",
+        "slug": "autor-john-locke",
+        "caminhoVault": "06-autores/autor-john-locke.md",
+        "gbwwVolumes": [
+          35
+        ]
+      },
+      {
+        "id": "author:marcus-aurelius",
+        "legacyIds": [
+          "autor-marco-aurelio",
+          "Marcus Aurelius"
+        ],
+        "canonicalName": "Marcus Aurelius",
+        "displayNamePtBr": "Marco Aurélio",
+        "slug": "autor-marco-aurelio",
+        "caminhoVault": "06-autores/autor-marco-aurelio.md",
+        "gbwwVolumes": [
+          12
+        ]
+      },
+      {
+        "id": "author:marx",
+        "legacyIds": [
+          "Autor-Karl-Marx",
+          "marx",
+          "Marx"
+        ],
+        "canonicalName": "Karl Marx",
+        "displayNamePtBr": "Karl Marx",
+        "slug": "autor-karl-marx",
+        "caminhoVault": "06-autores/autor-karl-marx.md",
+        "gbwwVolumes": [
+          50
+        ]
+      },
+      {
+        "id": "author:marx-engels",
+        "legacyIds": [
+          "Autor-Marx-Engels",
+          "marx-engels"
+        ],
+        "canonicalName": "Karl Marx & Friedrich Engels",
+        "displayNamePtBr": "Karl Marx & Friedrich Engels",
+        "slug": "autor-marx-engels",
+        "caminhoVault": "06-autores/autor-marx-engels.md",
+        "gbwwVolumes": [
+          50
+        ]
+      },
+      {
+        "id": "author:melville",
+        "legacyIds": [
+          "autor-herman-melville",
+          "Herman Melville"
+        ],
+        "canonicalName": "Herman Melville",
+        "displayNamePtBr": "Herman Melville",
+        "slug": "autor-herman-melville",
+        "caminhoVault": "06-autores/autor-herman-melville.md",
+        "gbwwVolumes": [
+          48
+        ]
+      },
+      {
+        "id": "author:mill",
+        "legacyIds": [
+          "Autor-John-Stuart-Mill",
+          "mill",
+          "Mill"
+        ],
+        "canonicalName": "John Stuart Mill",
+        "displayNamePtBr": "John Stuart Mill",
+        "slug": "autor-john-stuart-mill",
+        "caminhoVault": "06-autores/autor-john-stuart-mill.md",
+        "gbwwVolumes": [
+          43
+        ]
+      },
+      {
+        "id": "author:milton",
+        "legacyIds": [
+          "Autor-John-Milton",
+          "milton",
+          "Milton"
+        ],
+        "canonicalName": "John Milton",
+        "displayNamePtBr": "John Milton",
+        "slug": "autor-john-milton",
+        "caminhoVault": "06-autores/autor-john-milton.md",
+        "gbwwVolumes": [
+          32
+        ]
+      },
+      {
+        "id": "author:montaigne",
+        "legacyIds": [
+          "autor-michel-de-montaigne",
+          "Michel de Montaigne"
+        ],
+        "canonicalName": "Michel de Montaigne",
+        "displayNamePtBr": "Michel de Montaigne",
+        "slug": "autor-michel-de-montaigne",
+        "caminhoVault": "06-autores/autor-michel-de-montaigne.md",
+        "gbwwVolumes": [
+          25
+        ]
+      },
+      {
+        "id": "author:pascal",
+        "legacyIds": [
+          "autor-blaise-pascal",
+          "Blaise Pascal"
+        ],
+        "canonicalName": "Blaise Pascal",
+        "displayNamePtBr": "Blaise Pascal",
+        "slug": "autor-blaise-pascal",
+        "caminhoVault": "06-autores/autor-blaise-pascal.md",
+        "gbwwVolumes": [
+          33
+        ]
+      },
+      {
+        "id": "author:plato",
+        "legacyIds": [
+          "autor-platao",
+          "Plato"
+        ],
+        "canonicalName": "Plato",
+        "displayNamePtBr": "Platão",
+        "slug": "autor-platao",
+        "caminhoVault": "06-autores/autor-platao.md",
+        "gbwwVolumes": [
+          7
+        ]
+      },
+      {
+        "id": "author:plotinus",
+        "legacyIds": [
+          "autor-plotino",
+          "Plotinus"
+        ],
+        "canonicalName": "Plotinus",
+        "displayNamePtBr": "Plotino",
+        "slug": "autor-plotino",
+        "caminhoVault": "06-autores/autor-plotino.md",
+        "gbwwVolumes": [
+          17
+        ]
+      },
+      {
+        "id": "author:plutarch",
+        "legacyIds": [
+          "Autor-Plutarco",
+          "plutarch",
+          "Plutarco"
+        ],
+        "canonicalName": "Plutarch",
+        "displayNamePtBr": "Plutarco",
+        "slug": "autor-plutarco",
+        "caminhoVault": "06-autores/autor-plutarco.md",
+        "gbwwVolumes": [
+          14
+        ]
+      },
+      {
+        "id": "author:rousseau",
+        "legacyIds": [
+          "Autor-Jean-Jacques-Rousseau",
+          "rousseau",
+          "Rousseau"
+        ],
+        "canonicalName": "Jean-Jacques Rousseau",
+        "displayNamePtBr": "Jean-Jacques Rousseau",
+        "slug": "autor-jean-jacques-rousseau",
+        "caminhoVault": "06-autores/autor-jean-jacques-rousseau.md",
+        "gbwwVolumes": [
+          38
+        ]
+      },
+      {
+        "id": "author:smith",
+        "legacyIds": [
+          "Autor-Adam-Smith",
+          "smith",
+          "Smith"
+        ],
+        "canonicalName": "Adam Smith",
+        "displayNamePtBr": "Adam Smith",
+        "slug": "autor-adam-smith",
+        "caminhoVault": "06-autores/autor-adam-smith.md",
+        "gbwwVolumes": [
+          39
+        ]
+      },
+      {
+        "id": "author:sophocles",
+        "legacyIds": [
+          "autor-sofocles",
+          "Sophocles"
+        ],
+        "canonicalName": "Sophocles",
+        "displayNamePtBr": "Sófocles",
+        "slug": "autor-sofocles",
+        "caminhoVault": "06-autores/autor-sofocles.md",
+        "gbwwVolumes": [
+          5
+        ]
+      },
+      {
+        "id": "author:spinoza",
+        "legacyIds": [
+          "autor-baruch-spinoza",
+          "Benedict de Spinoza"
+        ],
+        "canonicalName": "Benedict de Spinoza",
+        "displayNamePtBr": "Baruch Spinoza",
+        "slug": "autor-baruch-spinoza",
+        "caminhoVault": "06-autores/autor-baruch-spinoza.md",
+        "gbwwVolumes": [
+          31
+        ]
+      },
+      {
+        "id": "author:swift",
+        "legacyIds": [
+          "Autor-Jonathan-Swift",
+          "swift",
+          "Swift"
+        ],
+        "canonicalName": "Jonathan Swift",
+        "displayNamePtBr": "Jonathan Swift",
+        "slug": "autor-jonathan-swift",
+        "caminhoVault": "06-autores/autor-jonathan-swift.md",
+        "gbwwVolumes": [
+          36
+        ]
+      },
+      {
+        "id": "author:thucydides",
+        "legacyIds": [
+          "autor-tucidides",
+          "Thucydides"
+        ],
+        "canonicalName": "Thucydides",
+        "displayNamePtBr": "Tucídides",
+        "slug": "autor-tucidides",
+        "caminhoVault": "06-autores/autor-tucidides.md",
+        "gbwwVolumes": [
+          6
+        ]
+      },
+      {
+        "id": "author:tolstoy",
+        "legacyIds": [
+          "Autor-Liev-Tolstoi",
+          "tolstoy",
+          "Tolstoi"
+        ],
+        "canonicalName": "Leo Tolstoy",
+        "displayNamePtBr": "Liev Tolstói",
+        "slug": "autor-liev-tolstoi",
+        "caminhoVault": "06-autores/autor-liev-tolstoi.md",
+        "gbwwVolumes": [
+          51
+        ]
+      },
+      {
+        "id": "author:virgil",
+        "legacyIds": [
+          "autor-virgilio",
+          "Virgil"
+        ],
+        "canonicalName": "Virgil",
+        "displayNamePtBr": "Virgílio",
+        "slug": "autor-virgilio",
+        "caminhoVault": "06-autores/autor-virgilio.md",
+        "gbwwVolumes": [
+          13
+        ]
+      },
+      {
+        "id": "author:william-james",
+        "legacyIds": [
+          "autor-william-james",
+          "William James"
+        ],
+        "canonicalName": "William James",
+        "displayNamePtBr": "William James",
+        "slug": "autor-william-james",
+        "caminhoVault": "06-autores/autor-william-james.md",
+        "gbwwVolumes": [
+          53
+        ]
+      }
+    ],
+    "obras": [
+      {
+        "id": "work:agesilaus-plutarch",
+        "legacyIds": [
+          "obra-agesilau-plutarco",
+          "Agesilaus"
+        ],
+        "canonicalTitle": "Agesilaus",
+        "displayTitlePtBr": "Agesilau",
+        "slug": "obra-agesilau-plutarco",
+        "caminhoVault": "05-obras/obra-agesilau-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:ajax-sophocles",
+        "legacyIds": [
+          "obra-ajax-sofocles",
+          "Ajax"
+        ],
+        "canonicalTitle": "Ajax",
+        "displayTitlePtBr": "Ájax",
+        "slug": "obra-ajax-sofocles",
+        "caminhoVault": "05-obras/obra-ajax-sofocles.md",
+        "authorIds": [
+          "author:sophocles"
+        ],
+        "gbwwVolume": 5
+      },
+      {
+        "id": "work:alexander-plutarch",
+        "legacyIds": [
+          "obra-alexandre-plutarco",
+          "Alexander"
+        ],
+        "canonicalTitle": "Alexander",
+        "displayTitlePtBr": "Alexandre",
+        "slug": "obra-alexandre-plutarco",
+        "caminhoVault": "05-obras/obra-alexandre-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:antigone-sophocles",
+        "legacyIds": [
+          "obra-antigone-sofocles",
+          "Antigone"
+        ],
+        "canonicalTitle": "Antigone",
+        "displayTitlePtBr": "Antígona",
+        "slug": "obra-antigone-sofocles",
+        "caminhoVault": "05-obras/obra-antigone-sofocles.md",
+        "authorIds": [
+          "author:sophocles"
+        ],
+        "gbwwVolume": 5
+      },
+      {
+        "id": "work:aristides-plutarch",
+        "legacyIds": [
+          "obra-aristides-plutarco",
+          "Aristides"
+        ],
+        "canonicalTitle": "Aristides",
+        "displayTitlePtBr": "Aristides",
+        "slug": "obra-aristides-plutarco",
+        "caminhoVault": "05-obras/obra-aristides-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:athenian-constitution",
+        "legacyIds": [
+          "Obra-Constituicao-de-Atenas-Aristoteles",
+          "athenian-constitution"
+        ],
+        "canonicalTitle": "Athenian Constitution",
+        "displayTitlePtBr": "Constituição de Atenas",
+        "authorId": "author:aristotle",
+        "gbwwVolume": 9,
+        "slug": "obra-constituicao-de-atenas-aristoteles",
+        "caminhoVault": "05-obras/obra-constituicao-de-atenas-aristoteles.md"
+      },
+      {
+        "id": "work:brothers-karamazov",
+        "legacyIds": [
+          "Obra-Irmaos-Karamazov-Dostoievski",
+          "brothers-karamazov"
+        ],
+        "canonicalTitle": "The Brothers Karamazov",
+        "displayTitlePtBr": "Os Irmãos Karamázov",
+        "authorId": "author:dostoevsky",
+        "gbwwVolume": 52,
+        "slug": "obra-irmaos-karamazov-dostoievski",
+        "caminhoVault": "05-obras/obra-irmaos-karamazov-dostoievski.md"
+      },
+      {
+        "id": "work:camillus-plutarch",
+        "legacyIds": [
+          "obra-camilo-plutarco",
+          "Camillus"
+        ],
+        "canonicalTitle": "Camillus",
+        "displayTitlePtBr": "Camilo",
+        "slug": "obra-camilo-plutarco",
+        "caminhoVault": "05-obras/obra-camilo-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:capital-marx",
+        "legacyIds": [
+          "Obra-O-Capital-Marx",
+          "capital"
+        ],
+        "canonicalTitle": "Capital",
+        "displayTitlePtBr": "O Capital",
+        "authorId": "author:marx",
+        "gbwwVolume": 50,
+        "slug": "obra-o-capital-marx",
+        "caminhoVault": "05-obras/obra-o-capital-marx.md"
+      },
+      {
+        "id": "work:cato-the-younger-plutarch",
+        "legacyIds": [
+          "obra-catao-o-jovem-plutarco",
+          "Cato the Younger"
+        ],
+        "canonicalTitle": "Cato the Younger",
+        "displayTitlePtBr": "Catão, o Jovem",
+        "slug": "obra-catao-o-jovem-plutarco",
+        "caminhoVault": "05-obras/obra-catao-o-jovem-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:city-of-god-augustine",
+        "legacyIds": [
+          "obra-cidade-de-deus-agostinho",
+          "The City of God"
+        ],
+        "canonicalTitle": "The City of God",
+        "displayTitlePtBr": "A Cidade de Deus",
+        "slug": "obra-cidade-de-deus-agostinho",
+        "caminhoVault": "05-obras/obra-cidade-de-deus-agostinho.md",
+        "authorIds": [
+          "author:augustine"
+        ],
+        "gbwwVolume": 18
+      },
+      {
+        "id": "work:civil-government-locke",
+        "legacyIds": [
+          "obra-segundo-tratado-governo-locke",
+          "Concerning Civil Government, Second Essay"
+        ],
+        "canonicalTitle": "Concerning Civil Government, Second Essay",
+        "displayTitlePtBr": "Segundo Tratado sobre o Governo Civil",
+        "slug": "obra-segundo-tratado-governo-locke",
+        "caminhoVault": "05-obras/obra-segundo-tratado-governo-locke.md",
+        "authorIds": [
+          "author:locke"
+        ],
+        "gbwwVolume": 35
+      },
+      {
+        "id": "work:civilization-and-its-discontents-freud",
+        "legacyIds": [
+          "obra-mal-estar-na-civilizacao-freud",
+          "Civilization and Its Discontents"
+        ],
+        "canonicalTitle": "Civilization and Its Discontents",
+        "displayTitlePtBr": "O Mal-Estar na Civilização",
+        "slug": "obra-mal-estar-na-civilizacao-freud",
+        "caminhoVault": "05-obras/obra-mal-estar-na-civilizacao-freud.md",
+        "authorIds": [
+          "author:freud"
+        ],
+        "gbwwVolume": 54
+      },
+      {
+        "id": "work:communist-manifesto",
+        "legacyIds": [
+          "Obra-Manifesto-Comunista-Marx-Engels",
+          "communist-manifesto"
+        ],
+        "canonicalTitle": "Manifesto of the Communist Party",
+        "displayTitlePtBr": "Manifesto do Partido Comunista",
+        "authorId": "author:marx-engels",
+        "gbwwVolume": 50,
+        "slug": "obra-manifesto-comunista-marx-engels",
+        "caminhoVault": "05-obras/obra-manifesto-comunista-marx-engels.md"
+      },
+      {
+        "id": "work:confessions-augustine",
+        "legacyIds": [
+          "obra-confissoes-agostinho",
+          "The Confessions of Saint Augustine"
+        ],
+        "canonicalTitle": "The Confessions of Saint Augustine",
+        "displayTitlePtBr": "Confissões",
+        "slug": "obra-confissoes-agostinho",
+        "caminhoVault": "05-obras/obra-confissoes-agostinho.md",
+        "authorIds": [
+          "author:augustine"
+        ],
+        "gbwwVolume": 18
+      },
+      {
+        "id": "work:cratylus-plato",
+        "legacyIds": [
+          "obra-cratilo-platao",
+          "Cratylus"
+        ],
+        "canonicalTitle": "Cratylus",
+        "displayTitlePtBr": "Crátilo",
+        "slug": "obra-cratilo-platao",
+        "caminhoVault": "05-obras/obra-cratilo-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:crito-plato",
+        "legacyIds": [
+          "obra-criton-platao",
+          "Crito"
+        ],
+        "canonicalTitle": "Crito",
+        "displayTitlePtBr": "Críton",
+        "slug": "obra-criton-platao",
+        "caminhoVault": "05-obras/obra-criton-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:decline-and-fall",
+        "legacyIds": [
+          "Obra-Declinio-e-Queda-Gibbon",
+          "decline-and-fall"
+        ],
+        "canonicalTitle": "The Decline and Fall of the Roman Empire",
+        "displayTitlePtBr": "Declínio e Queda do Império Romano",
+        "authorId": "author:gibbon",
+        "gbwwVolume": 40,
+        "slug": "obra-declinio-e-queda-gibbon",
+        "caminhoVault": "05-obras/obra-declinio-e-queda-gibbon.md"
+      },
+      {
+        "id": "work:discourse-on-inequality",
+        "legacyIds": [
+          "Obra-Discurso-Desigualdade-Rousseau",
+          "inequality"
+        ],
+        "canonicalTitle": "Discourse on the Origin and Basis of Inequality Among Men",
+        "displayTitlePtBr": "Discurso sobre a Origem da Desigualdade",
+        "authorId": "author:rousseau",
+        "gbwwVolume": 38,
+        "slug": "obra-discurso-desigualdade-rousseau",
+        "caminhoVault": "05-obras/obra-discurso-desigualdade-rousseau.md"
+      },
+      {
+        "id": "work:eclogues-virgil",
+        "legacyIds": [
+          "obra-bucolicas-virgilio",
+          "Eclogues"
+        ],
+        "canonicalTitle": "Eclogues",
+        "displayTitlePtBr": "Bucólicas (Éclogas)",
+        "slug": "obra-bucolicas-virgilio",
+        "caminhoVault": "05-obras/obra-bucolicas-virgilio.md",
+        "authorIds": [
+          "author:virgil"
+        ],
+        "gbwwVolume": 13
+      },
+      {
+        "id": "work:essays-montaigne",
+        "legacyIds": [
+          "obra-ensaios-montaigne",
+          "The Essays of Michel de Montaigne"
+        ],
+        "canonicalTitle": "The Essays of Michel de Montaigne",
+        "displayTitlePtBr": "Ensaios",
+        "slug": "obra-ensaios-montaigne",
+        "caminhoVault": "05-obras/obra-ensaios-montaigne.md",
+        "authorIds": [
+          "author:montaigne"
+        ],
+        "gbwwVolume": 25
+      },
+      {
+        "id": "work:ethics-spinoza",
+        "legacyIds": [
+          "obra-etica-espinosa",
+          "Ethics"
+        ],
+        "canonicalTitle": "Ethics",
+        "displayTitlePtBr": "Ética",
+        "slug": "obra-etica-espinosa",
+        "caminhoVault": "05-obras/obra-etica-espinosa.md",
+        "authorIds": [
+          "author:spinoza"
+        ],
+        "gbwwVolume": 31
+      },
+      {
+        "id": "work:faust-goethe",
+        "legacyIds": [
+          "obra-fausto-goethe",
+          "Faust"
+        ],
+        "canonicalTitle": "Faust",
+        "displayTitlePtBr": "Fausto",
+        "slug": "obra-fausto-goethe",
+        "caminhoVault": "05-obras/obra-fausto-goethe.md",
+        "authorIds": [
+          "author:goethe"
+        ],
+        "gbwwVolume": 47
+      },
+      {
+        "id": "work:gorgias-plato",
+        "legacyIds": [
+          "obra-gorgias-platao",
+          "Gorgias"
+        ],
+        "canonicalTitle": "Gorgias",
+        "displayTitlePtBr": "Górgias",
+        "slug": "obra-gorgias-platao",
+        "caminhoVault": "05-obras/obra-gorgias-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:gullivers-travels",
+        "legacyIds": [
+          "Obra-Viagens-de-Gulliver-Swift",
+          "gulliver"
+        ],
+        "canonicalTitle": "Gulliver's Travels",
+        "displayTitlePtBr": "As Viagens de Gulliver",
+        "authorId": "author:swift",
+        "gbwwVolume": 36,
+        "slug": "obra-viagens-de-gulliver-swift",
+        "caminhoVault": "05-obras/obra-viagens-de-gulliver-swift.md"
+      },
+      {
+        "id": "work:human-understanding-locke",
+        "legacyIds": [
+          "obra-ensaio-entendimento-humano-locke",
+          "An Essay Concerning Human Understanding"
+        ],
+        "canonicalTitle": "An Essay Concerning Human Understanding",
+        "displayTitlePtBr": "Ensaio sobre o Entendimento Humano",
+        "slug": "obra-ensaio-entendimento-humano-locke",
+        "caminhoVault": "05-obras/obra-ensaio-entendimento-humano-locke.md",
+        "authorIds": [
+          "author:locke"
+        ],
+        "gbwwVolume": 35
+      },
+      {
+        "id": "work:intro-metaphysic-of-morals-kant",
+        "legacyIds": [
+          "obra-introducao-metafisica-costumes-kant",
+          "Introduction to the Metaphysic of Morals"
+        ],
+        "canonicalTitle": "Introduction to the Metaphysic of Morals",
+        "displayTitlePtBr": "Introdução à Metafísica dos Costumes",
+        "slug": "obra-introducao-metafisica-costumes-kant",
+        "caminhoVault": "05-obras/obra-introducao-metafisica-costumes-kant.md",
+        "authorIds": [
+          "author:kant"
+        ],
+        "gbwwVolume": 42
+      },
+      {
+        "id": "work:laws-plato",
+        "legacyIds": [
+          "obra-leis-platao",
+          "Laws"
+        ],
+        "canonicalTitle": "Laws",
+        "displayTitlePtBr": "As Leis",
+        "slug": "obra-leis-platao",
+        "caminhoVault": "05-obras/obra-leis-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:leviathan-hobbes",
+        "legacyIds": [
+          "obra-leviata-hobbes",
+          "Leviathan"
+        ],
+        "canonicalTitle": "Leviathan",
+        "displayTitlePtBr": "Leviatã",
+        "slug": "obra-leviata-hobbes",
+        "caminhoVault": "05-obras/obra-leviata-hobbes.md",
+        "authorIds": [
+          "author:hobbes"
+        ],
+        "gbwwVolume": 23
+      },
+      {
+        "id": "work:liberty-mill",
+        "legacyIds": [
+          "obra-sobre-a-liberdade-mill",
+          "On Liberty"
+        ],
+        "canonicalTitle": "On Liberty",
+        "displayTitlePtBr": "Sobre a Liberdade",
+        "slug": "obra-sobre-a-liberdade-mill",
+        "caminhoVault": "05-obras/obra-sobre-a-liberdade-mill.md",
+        "authorIds": [
+          "author:mill"
+        ],
+        "gbwwVolume": 43
+      },
+      {
+        "id": "work:life-of-johnson",
+        "legacyIds": [
+          "Obra-Vida-de-Johnson-Boswell",
+          "life-of-johnson"
+        ],
+        "canonicalTitle": "The Life of Samuel Johnson, LL.D.",
+        "displayTitlePtBr": "A Vida de Samuel Johnson",
+        "authorId": "author:boswell",
+        "gbwwVolume": 44,
+        "slug": "obra-vida-de-johnson-boswell",
+        "caminhoVault": "05-obras/obra-vida-de-johnson-boswell.md"
+      },
+      {
+        "id": "work:lycurgus-plutarch",
+        "legacyIds": [
+          "Obra-Licurgo-Plutarco",
+          "lycurgus"
+        ],
+        "canonicalTitle": "Lycurgus",
+        "displayTitlePtBr": "Licurgo",
+        "authorId": "author:plutarch",
+        "gbwwVolume": 14,
+        "slug": "obra-licurgo-plutarco",
+        "caminhoVault": "05-obras/obra-licurgo-plutarco.md"
+      },
+      {
+        "id": "work:marcus-cato-plutarch",
+        "legacyIds": [
+          "Obra-Marco-Catao-Plutarco",
+          "marcus-cato"
+        ],
+        "canonicalTitle": "Marcus Cato",
+        "displayTitlePtBr": "Marco Catão",
+        "authorId": "author:plutarch",
+        "gbwwVolume": 14,
+        "slug": "obra-marco-catao-plutarco",
+        "caminhoVault": "05-obras/obra-marco-catao-plutarco.md"
+      },
+      {
+        "id": "work:meditations-aurelius",
+        "legacyIds": [
+          "obra-meditacoes-marco-aurelio",
+          "The Meditations of Marcus Aurelius"
+        ],
+        "canonicalTitle": "The Meditations of Marcus Aurelius",
+        "displayTitlePtBr": "Meditações",
+        "slug": "obra-meditacoes-marco-aurelio",
+        "caminhoVault": "05-obras/obra-meditacoes-marco-aurelio.md",
+        "authorIds": [
+          "author:marcus-aurelius"
+        ],
+        "gbwwVolume": 12
+      },
+      {
+        "id": "work:meno-plato",
+        "legacyIds": [
+          "obra-menon-platao",
+          "Meno"
+        ],
+        "canonicalTitle": "Meno",
+        "displayTitlePtBr": "Mênon",
+        "slug": "obra-menon-platao",
+        "caminhoVault": "05-obras/obra-menon-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:metaphysical-elements-ethics-kant",
+        "legacyIds": [
+          "obra-elementos-metafisicos-etica-kant",
+          "Fundamental Principles of the Metaphysic of Morals (Preface to the Metaphysical Elements of Ethics)"
+        ],
+        "canonicalTitle": "Fundamental Principles of the Metaphysic of Morals (Preface to the Metaphysical Elements of Ethics)",
+        "displayTitlePtBr": "Fundamentação da Metafísica dos Costumes (Prefácio aos Elementos Metafísicos da Ética)",
+        "slug": "obra-elementos-metafisicos-etica-kant",
+        "caminhoVault": "05-obras/obra-elementos-metafisicos-etica-kant.md",
+        "authorIds": [
+          "author:kant"
+        ],
+        "gbwwVolume": 42
+      },
+      {
+        "id": "work:moby-dick-melville",
+        "legacyIds": [
+          "obra-moby-dick-melville",
+          "Moby Dick; or, The Whale"
+        ],
+        "canonicalTitle": "Moby Dick; or, The Whale",
+        "displayTitlePtBr": "Moby Dick",
+        "slug": "obra-moby-dick-melville",
+        "caminhoVault": "05-obras/obra-moby-dick-melville.md",
+        "authorIds": [
+          "author:melville"
+        ],
+        "gbwwVolume": 48
+      },
+      {
+        "id": "work:nicomachean-ethics",
+        "legacyIds": [
+          "Obra-Etica-a-Nicomaco-Aristoteles",
+          "ethics"
+        ],
+        "canonicalTitle": "Nicomachean Ethics",
+        "displayTitlePtBr": "Ética a Nicômaco",
+        "authorId": "author:aristotle",
+        "gbwwVolume": 9,
+        "slug": "obra-etica-a-nicomaco-aristoteles",
+        "caminhoVault": "05-obras/obra-etica-a-nicomaco-aristoteles.md"
+      },
+      {
+        "id": "work:paradise-lost-milton",
+        "legacyIds": [
+          "obra-paraiso-perdido-milton",
+          "Paradise Lost"
+        ],
+        "canonicalTitle": "Paradise Lost",
+        "displayTitlePtBr": "Paraíso Perdido",
+        "slug": "obra-paraiso-perdido-milton",
+        "caminhoVault": "05-obras/obra-paraiso-perdido-milton.md",
+        "authorIds": [
+          "author:milton"
+        ],
+        "gbwwVolume": 32
+      },
+      {
+        "id": "work:peloponnesian-war-thucydides",
+        "legacyIds": [
+          "obra-guerra-do-peloponeso-tucidides",
+          "The History of the Peloponnesian War"
+        ],
+        "canonicalTitle": "The History of the Peloponnesian War",
+        "displayTitlePtBr": "História da Guerra do Peloponeso",
+        "slug": "obra-guerra-do-peloponeso-tucidides",
+        "caminhoVault": "05-obras/obra-guerra-do-peloponeso-tucidides.md",
+        "authorIds": [
+          "author:thucydides"
+        ],
+        "gbwwVolume": 6
+      },
+      {
+        "id": "work:pensees-pascal",
+        "legacyIds": [
+          "obra-pensamentos-pascal",
+          "Pensées"
+        ],
+        "canonicalTitle": "Pensées",
+        "displayTitlePtBr": "Pensamentos",
+        "slug": "obra-pensamentos-pascal",
+        "caminhoVault": "05-obras/obra-pensamentos-pascal.md",
+        "authorIds": [
+          "author:pascal"
+        ],
+        "gbwwVolume": 33
+      },
+      {
+        "id": "work:philosophy-of-history",
+        "legacyIds": [
+          "Obra-Filosofia-da-Historia-Hegel",
+          "philosophy-of-history"
+        ],
+        "canonicalTitle": "The Philosophy of History",
+        "displayTitlePtBr": "A Filosofia da História",
+        "authorId": "author:hegel",
+        "gbwwVolume": 46,
+        "slug": "obra-filosofia-da-historia-hegel",
+        "caminhoVault": "05-obras/obra-filosofia-da-historia-hegel.md"
+      },
+      {
+        "id": "work:philosophy-of-right-hegel",
+        "legacyIds": [
+          "obra-filosofia-do-direito-hegel",
+          "Philosophy of Right"
+        ],
+        "canonicalTitle": "Philosophy of Right",
+        "displayTitlePtBr": "Filosofia do Direito",
+        "slug": "obra-filosofia-do-direito-hegel",
+        "caminhoVault": "05-obras/obra-filosofia-do-direito-hegel.md",
+        "authorIds": [
+          "author:hegel"
+        ],
+        "gbwwVolume": 46
+      },
+      {
+        "id": "work:political-economy-rousseau",
+        "legacyIds": [
+          "obra-economia-politica-rousseau",
+          "A Discourse on Political Economy"
+        ],
+        "canonicalTitle": "A Discourse on Political Economy",
+        "displayTitlePtBr": "Discurso sobre a Economia Política",
+        "slug": "obra-economia-politica-rousseau",
+        "caminhoVault": "05-obras/obra-economia-politica-rousseau.md",
+        "authorIds": [
+          "author:rousseau"
+        ],
+        "gbwwVolume": 38
+      },
+      {
+        "id": "work:politics-aristotle",
+        "legacyIds": [
+          "Obra-Politica-Aristoteles",
+          "politics"
+        ],
+        "canonicalTitle": "Politics",
+        "displayTitlePtBr": "Política",
+        "authorId": "author:aristotle",
+        "gbwwVolume": 9,
+        "slug": "obra-politica-aristoteles",
+        "caminhoVault": "05-obras/obra-politica-aristoteles.md"
+      },
+      {
+        "id": "work:psychology-james",
+        "legacyIds": [
+          "obra-principios-de-psicologia-james",
+          "The Principles of Psychology"
+        ],
+        "canonicalTitle": "The Principles of Psychology",
+        "displayTitlePtBr": "Princípios de Psicologia",
+        "slug": "obra-principios-de-psicologia-james",
+        "caminhoVault": "05-obras/obra-principios-de-psicologia-james.md",
+        "authorIds": [
+          "author:william-james"
+        ],
+        "gbwwVolume": 53
+      },
+      {
+        "id": "work:pure-reason-kant",
+        "legacyIds": [
+          "obra-critica-da-razao-pura-kant",
+          "The Critique of Pure Reason"
+        ],
+        "canonicalTitle": "The Critique of Pure Reason",
+        "displayTitlePtBr": "Crítica da Razão Pura",
+        "slug": "obra-critica-da-razao-pura-kant",
+        "caminhoVault": "05-obras/obra-critica-da-razao-pura-kant.md",
+        "authorIds": [
+          "author:kant"
+        ],
+        "gbwwVolume": 42
+      },
+      {
+        "id": "work:representative-government",
+        "legacyIds": [
+          "Obra-Governo-Representativo-Mill",
+          "representative-government"
+        ],
+        "canonicalTitle": "Representative Government",
+        "displayTitlePtBr": "Considerações sobre o Governo Representativo",
+        "authorId": "author:mill",
+        "gbwwVolume": 43,
+        "slug": "obra-governo-representativo-mill",
+        "caminhoVault": "05-obras/obra-governo-representativo-mill.md"
+      },
+      {
+        "id": "work:republic-plato",
+        "legacyIds": [
+          "obra-republica-platao",
+          "The Republic"
+        ],
+        "canonicalTitle": "The Republic",
+        "displayTitlePtBr": "A República",
+        "slug": "obra-republica-platao",
+        "caminhoVault": "05-obras/obra-republica-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:rhetoric-aristotle",
+        "legacyIds": [
+          "obra-retorica-aristoteles",
+          "Rhetoric"
+        ],
+        "canonicalTitle": "Rhetoric",
+        "displayTitlePtBr": "Retórica",
+        "slug": "obra-retorica-aristoteles",
+        "caminhoVault": "05-obras/obra-retorica-aristoteles.md",
+        "authorIds": [
+          "author:aristotle"
+        ],
+        "gbwwVolume": 9
+      },
+      {
+        "id": "work:samson-agonistes",
+        "legacyIds": [
+          "Obra-Sansao-Agonista-Milton",
+          "samson-agonistes"
+        ],
+        "canonicalTitle": "Samson Agonistes",
+        "displayTitlePtBr": "Sansão Agonista",
+        "authorId": "author:milton",
+        "gbwwVolume": 32,
+        "slug": "obra-sansao-agonista-milton",
+        "caminhoVault": "05-obras/obra-sansao-agonista-milton.md"
+      },
+      {
+        "id": "work:science-of-right",
+        "legacyIds": [
+          "Obra-Ciencia-do-Direito-Kant",
+          "science-of-right"
+        ],
+        "canonicalTitle": "The Science of Right",
+        "displayTitlePtBr": "A Ciência do Direito",
+        "authorId": "author:kant",
+        "gbwwVolume": 42,
+        "slug": "obra-ciencia-do-direito-kant",
+        "caminhoVault": "05-obras/obra-ciencia-do-direito-kant.md"
+      },
+      {
+        "id": "work:social-contract-rousseau",
+        "legacyIds": [
+          "obra-contrato-social-rousseau",
+          "The Social Contract"
+        ],
+        "canonicalTitle": "The Social Contract",
+        "displayTitlePtBr": "Do Contrato Social",
+        "slug": "obra-contrato-social-rousseau",
+        "caminhoVault": "05-obras/obra-contrato-social-rousseau.md",
+        "authorIds": [
+          "author:rousseau"
+        ],
+        "gbwwVolume": 38
+      },
+      {
+        "id": "work:statesman-plato",
+        "legacyIds": [
+          "obra-politico-platao",
+          "Statesman"
+        ],
+        "canonicalTitle": "Statesman",
+        "displayTitlePtBr": "O Político",
+        "slug": "obra-politico-platao",
+        "caminhoVault": "05-obras/obra-politico-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:summa-theologica",
+        "legacyIds": [
+          "Obra-Suma-Teologica-Aquino",
+          "summa"
+        ],
+        "canonicalTitle": "Summa Theologica",
+        "displayTitlePtBr": "Suma Teológica",
+        "authorId": "author:aquinas",
+        "gbwwVolume": 20,
+        "slug": "obra-suma-teologica-aquino",
+        "caminhoVault": "05-obras/obra-suma-teologica-aquino.md"
+      },
+      {
+        "id": "work:theaetetus-plato",
+        "legacyIds": [
+          "obra-teeteto-platao",
+          "Theaetetus"
+        ],
+        "canonicalTitle": "Theaetetus",
+        "displayTitlePtBr": "Teeteto",
+        "slug": "obra-teeteto-platao",
+        "caminhoVault": "05-obras/obra-teeteto-platao.md",
+        "authorIds": [
+          "author:plato"
+        ],
+        "gbwwVolume": 7
+      },
+      {
+        "id": "work:theseus-plutarch",
+        "legacyIds": [
+          "obra-teseu-plutarco",
+          "Theseus"
+        ],
+        "canonicalTitle": "Theseus",
+        "displayTitlePtBr": "Teseu",
+        "slug": "obra-teseu-plutarco",
+        "caminhoVault": "05-obras/obra-teseu-plutarco.md",
+        "authorIds": [
+          "author:plutarch"
+        ],
+        "gbwwVolume": 14
+      },
+      {
+        "id": "work:third-ennead-plotinus",
+        "legacyIds": [
+          "obra-terceira-eneada-plotino",
+          "Third Ennead"
+        ],
+        "canonicalTitle": "Third Ennead",
+        "displayTitlePtBr": "Terceira Enéada",
+        "slug": "obra-terceira-eneada-plotino",
+        "caminhoVault": "05-obras/obra-terceira-eneada-plotino.md",
+        "authorIds": [
+          "author:plotinus"
+        ],
+        "gbwwVolume": 17
+      },
+      {
+        "id": "work:topics-aristotle",
+        "legacyIds": [
+          "obra-topicos-aristoteles",
+          "Topics"
+        ],
+        "canonicalTitle": "Topics",
+        "displayTitlePtBr": "Tópicos",
+        "slug": "obra-topicos-aristoteles",
+        "caminhoVault": "05-obras/obra-topicos-aristoteles.md",
+        "authorIds": [
+          "author:aristotle"
+        ],
+        "gbwwVolume": 8
+      },
+      {
+        "id": "work:us-constitution",
+        "legacyIds": [
+          "Obra-Constituicao-dos-EUA",
+          "us-constitution"
+        ],
+        "canonicalTitle": "Constitution of the United States",
+        "displayTitlePtBr": "Constituição dos Estados Unidos da América",
+        "authorId": "author:founding-fathers-us",
+        "gbwwVolume": 43,
+        "slug": "obra-constituicao-dos-eua",
+        "caminhoVault": "05-obras/obra-constituicao-dos-eua.md"
+      },
+      {
+        "id": "work:utilitarianism-mill",
+        "legacyIds": [
+          "obra-utilitarismo-mill",
+          "Utilitarianism"
+        ],
+        "canonicalTitle": "Utilitarianism",
+        "displayTitlePtBr": "Utilitarismo",
+        "slug": "obra-utilitarismo-mill",
+        "caminhoVault": "05-obras/obra-utilitarismo-mill.md",
+        "authorIds": [
+          "author:mill"
+        ],
+        "gbwwVolume": 43
+      },
+      {
+        "id": "work:war-and-peace",
+        "legacyIds": [
+          "Obra-Guerra-e-Paz-Tolstoi",
+          "war-and-peace"
+        ],
+        "canonicalTitle": "War and Peace",
+        "displayTitlePtBr": "Guerra e Paz",
+        "authorId": "author:tolstoy",
+        "gbwwVolume": 51,
+        "slug": "obra-guerra-e-paz-tolstoi",
+        "caminhoVault": "05-obras/obra-guerra-e-paz-tolstoi.md"
+      },
+      {
+        "id": "work:wealth-of-nations",
+        "legacyIds": [
+          "Obra-Riqueza-das-Nacoes-Smith",
+          "wealth-of-nations"
+        ],
+        "canonicalTitle": "The Wealth of Nations",
+        "displayTitlePtBr": "A Riqueza das Nações",
+        "authorId": "author:smith",
+        "gbwwVolume": 39,
+        "slug": "obra-riqueza-das-nacoes-smith",
+        "caminhoVault": "05-obras/obra-riqueza-das-nacoes-smith.md"
+      }
+    ]
+  }
+}

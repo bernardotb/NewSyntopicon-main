@@ -1,0 +1,96 @@
+{
+  "versao": "1.0.0",
+  "descricao": "Catálogo de Fontes Documentais do Ecossistema Syntopicon",
+  "dataAtualizacao": "2026-09-21",
+  "fontes": [
+    {
+      "id": "source:gbww-1952",
+      "tipo": "colecao-impressa",
+      "titulo": "Great Books of the Western World",
+      "editor": "Robert Maynard Hutchins & Mortimer J. Adler",
+      "editora": "Encyclopædia Britannica, Inc. / University of Chicago",
+      "ano": 1952,
+      "volumesTotais": 54,
+      "descricao": "Edição fundacional da coleção dos Grandes Livros do Ocidente com 443 obras de 74 autores.",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:syntopicon-1952",
+      "aliases": [
+        "syntopicon-1952"
+      ],
+      "tipo": "indice-canonico-geral",
+      "titulo": "The Great Ideas: A Syntopicon of Great Books of the Western World",
+      "volumesGBWW": [
+        2,
+        3
+      ],
+      "editor": "Mortimer J. Adler & William Gorman",
+      "editora": "Encyclopædia Britannica, Inc.",
+      "ano": 1952,
+      "descricao": "Edição fundacional de 1952 do Syntopicon cobrindo as 102 Grandes Ideias em dois volumes.",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:syntopicon-1952-vol-1",
+      "tipo": "volume-indice",
+      "titulo": "The Great Ideas: A Syntopicon of Great Books of the Western World, Volume I (Angel to Love)",
+      "volumeGBWW": 2,
+      "editor": "Mortimer J. Adler & William Gorman",
+      "editora": "Encyclopædia Britannica, Inc.",
+      "ano": 1952,
+      "paginas": 1134,
+      "ideiasCobertas": "01 (Angel) a 50 (Love)",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:syntopicon-1952-vol-2",
+      "tipo": "volume-indice",
+      "titulo": "The Great Ideas: A Syntopicon of Great Books of the Western World, Volume II (Man to World)",
+      "volumeGBWW": 3,
+      "editor": "Mortimer J. Adler & William Gorman",
+      "editora": "Encyclopædia Britannica, Inc.",
+      "ano": 1952,
+      "paginas": 1345,
+      "ideiasCobertas": "51 (Man) a 102 (World)",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:pdf-justice-1952",
+      "tipo": "recorte-digital-documental",
+      "titulo": "Justice.pdf (Recorte do Capítulo 42 do Syntopicon Vol. 1 / GBWW Vol. 2)",
+      "paginasImpressas": "850–879",
+      "paginasArquivo": 30,
+      "localizacao": "_fontes/Justice.pdf",
+      "descricao": "Documento de autoridade primária utilizado na auditoria e verificação dos 41 nós de tópico de Justiça.",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:inventory-of-terms-1990",
+      "tipo": "inventario-lexical",
+      "titulo": "Inventory of Terms — Syntopicon, Second Edition",
+      "editor": "Mortimer J. Adler",
+      "ano": 1990,
+      "descricao": "Autoridade lexical complementar para relações termo -> tópico. Usado como apoio, sem alterar a taxonomia de 1952.",
+      "statusVerificacao": "needs_verification"
+    },
+    {
+      "id": "source:six-great-ideas-1981",
+      "tipo": "monografia-editorial",
+      "titulo": "Six Great Ideas: Truth, Goodness, Beauty, Liberty, Equality, Justice",
+      "autor": "Mortimer J. Adler",
+      "editora": "Macmillan",
+      "ano": 1981,
+      "descricao": "Obra onde Adler aprofunda o tratamento de Igualdade ao lado de Justiça e outras ideias centrais.",
+      "statusVerificacao": "verified"
+    },
+    {
+      "id": "source:app-dataset-syntopicon-json",
+      "tipo": "extracao-computacional",
+      "titulo": "syntopicon.json (Dataset da aplicação syntopicon-codex)",
+      "localizacao": "syntopicon-codex/data/generated/syntopicon.json",
+      "descricao": "Insumo de extração com 790 registros para Justiça. Contém inconsistências de classificação (ex: 8c vs 8c(1)) a reconciliar.",
+      "statusVerificacao": "needs_verification"
+    }
+  ]
+}
